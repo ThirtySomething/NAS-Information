@@ -69,6 +69,10 @@ Maybe you want to use a PC in front of the storage. In this case you may regard 
 - [Jeff Geerling][jeff_geerling]
 - [SATA HAT][raspberry_pi_sata_hat]
 
+## Tools
+
+- [Syncthing][syncthing] for file synchronization
+
 [backblaze]: https://www.backblaze.com/b2/hard-drive-test-data.html
 [brian_moses]: https://blog.briancmoses.com/categories/diy-nas/
 [buffalo]: https://www.buffalo-technology.com
@@ -90,6 +94,7 @@ Maybe you want to use a PC in front of the storage. In this case you may regard 
 [raspberry_pi_sata_hat]: https://wiki.radxa.com/Dual_Quad_SATA_HAT
 [server_builds]: https://www.serverbuilds.net/
 [smr_vs_cmr]: https://www.elefacts.de/test-160-nas_festplatten_mit_smr_oder_cmr_ein_ueberblick_im_jahr_2021
+[syncthing]: https://syncthing.net/
 [synology]: https://www.synology.com
 [synology_ds920p_ram]: https://www.youtube.com/watch?v=3Ls5E5uTzVU
 [technikaffe]: https://www.technikaffe.de/nas-eigenbau/
