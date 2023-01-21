@@ -52,7 +52,7 @@ For a DIY NAS you need an [operating system][operating_system]. Here are some po
 - [Unraid][unraid] (commercial)
 - [XigmaNAS][xigmanas]
 
-### USB cases
+### External cases
 
 Maybe you want to use a PC in front of the storage. In this case you may regard an external [RAID][raid] case supporting USB or thunderbolt.
 
