@@ -14,6 +14,7 @@ These are manufacturer of [NAS][nas] systems and they offer their devices with t
 - [Synology][synology]
 - [TerraMaster][terra_master]
 - [Thecus][thecus]
+- [UGreen][ugreen] - **Newcomer**
 - [Western Digital][western_digital]
 
 ## Pimp a commercial NAS
@@ -120,6 +121,7 @@ Maybe you want to use a PC in front of the storage. In this case you may regard 
 [thecus]: https://www.thecus.com
 [truenas_core]: https://www.truenas.com/truenas-core/
 [truenas_scale]: https://www.truenas.com/download-truenas-scale/
+[ugreen]: https://nas.ugreen.com/
 [unraid]: https://unraid.net
 [western_digital]: https://www.westerndigital.com
 [western_digital_pr4100_omv]: https://forum.openmediavault.org/index.php?thread/37009-can-i-install-omv-on-a-wd-nas/
