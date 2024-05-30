@@ -6,16 +6,18 @@ A curated list about [NAS][nas] hardware and software, tips and tricks. This lis
 
 These are manufacturer of [NAS][nas] systems and they offer their devices with their own [OS][operating_system] installed.
 
-- [Buffalo][buffalo]
-- ~~[Drobo][drobo]~~ [Does not exist anymore][ex_drobo]
-- ~~[kobol][kobol]~~ [Does not exist anymore][ex_kobol]
-- [PiBox][pibox]
-- [QNAP][qnap]
-- [Synology][synology]
-- [TerraMaster][terra_master]
-- [Thecus][thecus]
-- [UGreen][ugreen] - **Newcomer**
-- [Western Digital][western_digital]
+- [ASUSTOR][asustor], founded in 2011
+- [Buffalo][buffalo], first [NAS][nas] in 2003
+- ~~[Drobo][drobo]~~ [Does not exist anymore][ex_drobo], 2005-2023
+- ~~[kobol][kobol]~~ [Does not exist anymore][ex_kobol], 2017-2021
+- [iXsystems][ixsystems], founded in 1991, offers also [NAS hardware][ixsystems_hardware] for their [OS][ixsystems]
+- [PiBox][pibox], founded in 2019
+- [QNAP][qnap], founded in 2004
+- [Synology][synology], founded in 2000
+- [TerraMaster][terra_master], founded in 2010
+- [Thecus][thecus], founded in 2004
+- [UGreen][ugreen], founded in 2012, first [NAS][nas] in 2024
+- [Western Digital][western_digital], founded in 1970
 
 ## Pimp a commercial NAS
 
@@ -63,7 +65,7 @@ Promising [NAS][nas] hardware will be listet here:
 - [Interceptor Carrier Board][axzez_interceptor] for [RPi][raspberry_pi] compute module, supports 5 SATA drives
 - [Jonsbo N1][case_jonsbo_n1] - PC case for [NAS][nas]
 - [Radxa SATA hat][radxa sata hat] for [RPi][raspberry_pi]
-- [Topton NAS boards][ae_topton] - For the brave: Topton mainboards on aliexpress
+- [Topton NAS boards][ae_topton] - For the brave: Topton mainboards on AliExpress
 - ~~[Wiretrustee][ex_wiretrustee]~~ - Project stopped, plans for hardware are public available
 
 ## External cases
@@ -80,6 +82,7 @@ Maybe you want to use a PC in front of the storage. In this case you may regard 
 - [Shingled Magnetic Recording vs Conventional Magnetic Recording][smr_vs_cmr]
 
 [ae_topton]: https://www.aliexpress.com/w/wholesale-topton-nas-board.html?spm=a2g0o.home.search.0
+[asustor]: https://www.asustor.com/en/about/about_asustor
 [axzez_interceptor]: https://www.axzez.com/axzez-circuit-boards
 [backblaze]: https://www.backblaze.com/b2/hard-drive-test-data.html
 [brian_moses]: https://blog.briancmoses.com/categories/diy-nas/
@@ -98,6 +101,9 @@ Maybe you want to use a PC in front of the storage. In this case you may regard 
 [heise_nas]: https://www.heise.de/preisvergleich/?cat=WL-1682454&hocid=ct
 [highpoint]: https://www.highpoint-tech.com/raid-storage-enclosures
 [icybox_internal_storage]: https://dev.icybox.de/products/interne_speicherloesungen
+[ixsystems]: https://www.truenas.com/
+[ixsystems_hardware]: https://www.truenas.com/truenas-mini/
+[ixsystems_truenas]: https://www.truenas.com/software-status/
 [jeff_gerling]: https://www.jeffgeerling.com
 [kobol]: https://kobol.io/
 [michael_lynch]: https://mtlynch.io/building-a-vm-homelab/
