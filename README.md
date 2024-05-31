@@ -30,7 +30,7 @@ There are some tricks available to pimp a commercial [NAS][nas].
   - [OMV on F2-220 (German)][terra_master_f2_220_omv]
   - [RAM upgrade F5-221][terra_master_f5_221_ram]
 - [UGreen][ugreen]<sup>2)</sup>
-  - [Unleash UGOS NAS with TrueNAS instead of UGOS (German)][ugreen_truenas]
+  - [Unleash UGreen NAS with TrueNAS instead of UGOS (German)][ugreen_truenas]
 - [Western Digital][western_digital]
   - [OMV on PR4100][western_digital_pr4100_omv]
   - [RAM upgrad PR4100][western_digital_pr4100_ram]
