@@ -12,6 +12,7 @@ These are manufacturer of [NAS][nas] systems and they offer their devices with t
 - ~~[kobol][kobol]~~ [Does not exist anymore][ex_kobol], 2017-2021
 - [iXsystems][ixsystems], founded in 1991, offers also [NAS hardware][ixsystems_hardware] for their [OS][ixsystems]
 - [PiBox][pibox], founded in 2019
+- [PROMISE Technology][promise]
 - [QNAP][qnap], founded in 2004
 - [Synology][synology], founded in 2000
 - [TerraMaster][terra_master], founded in 2010
@@ -25,12 +26,17 @@ There are some tricks available to pimp a commercial [NAS][nas].
 
 - [Synology][synology]
   - [RAM upgrade DS920+][synology_ds920p_ram]
-- [TerraMaster][terra_master]
+- [TerraMaster][terra_master]<sup>1)</sup>
   - [OMV on F2-220 (German)][terra_master_f2_220_omv]
   - [RAM upgrade F5-221][terra_master_f5_221_ram]
+- [UGreen][ugreen]<sup>2)</sup>
+  - [Unleash UGOS NAS with TrueNAS instead of UGOS (German)][ugreen_truenas]
 - [Western Digital][western_digital]
   - [OMV on PR4100][western_digital_pr4100_omv]
   - [RAM upgrad PR4100][western_digital_pr4100_ram]
+
+<sup>1)</sup> Most of the [TerraMaster][terra_master] [NAS][nas] systems use an USB stick with the OS installed. It seems to be easy to install any kind of OS you want. Maybe the [Proxmox Virtual Environment][proxmox] is working?
+<sup>2)</sup> It seems that at least the 4 bay model is using an internal SSD for the OS. It seems to be easy to install any kind of OS you want. Maybe the [Proxmox [Proxmox Virtual Environment][proxmox] is working?
 
 ## DIY NAS hardware builds
 
@@ -113,6 +119,8 @@ Maybe you want to use a PC in front of the storage. In this case you may regard 
 [operating_system]: https://en.wikipedia.org/wiki/Operating_system
 [owc]: https://www.owc.com
 [pibox]: https://pibox.io
+[promise]: https://www.promise.com/
+[proxmox]: https://www.proxmox.com/en/
 [qnap]: https://www.qnap.com
 [radxa sata hat]: https://radxa.com/products/accessories/penta-sata-hat/
 [raid]: https://en.wikipedia.org/wiki/RAID
@@ -130,6 +138,7 @@ Maybe you want to use a PC in front of the storage. In this case you may regard 
 [truenas_core]: https://www.truenas.com/truenas-core/
 [truenas_scale]: https://www.truenas.com/download-truenas-scale/
 [ugreen]: https://nas.ugreen.com/
+[ugreen_truenas]: https://www.youtube.com/watch?v=BWNH_JzMNPc
 [unraid]: https://unraid.net
 [western_digital]: https://www.westerndigital.com
 [western_digital_pr4100_omv]: https://forum.openmediavault.org/index.php?thread/37009-can-i-install-omv-on-a-wd-nas/
