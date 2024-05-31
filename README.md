@@ -36,6 +36,7 @@ There are some tricks available to pimp a commercial [NAS][nas].
   - [RAM upgrad PR4100][western_digital_pr4100_ram]
 
 <sup>1)</sup> Most of the [TerraMaster][terra_master] [NAS][nas] systems use an USB stick with the OS installed. It seems to be easy to install any kind of OS you want. Maybe the [Proxmox Virtual Environment][proxmox] is working?
+
 <sup>2)</sup> It seems that at least the 4 bay model is using an internal SSD for the OS. It seems to be easy to install any kind of OS you want. Maybe the [Proxmox [Proxmox Virtual Environment][proxmox] is working?
 
 ## DIY NAS hardware builds
