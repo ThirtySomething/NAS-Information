@@ -35,9 +35,9 @@ There are some tricks available to pimp a commercial [NAS][nas].
   - [OMV on PR4100][western_digital_pr4100_omv]
   - [RAM upgrad PR4100][western_digital_pr4100_ram]
 
-<sup>1)</sup> Most of the [TerraMaster][terra_master] [NAS][nas] systems use an USB stick with the OS installed. It seems to be easy to install any kind of OS you want. Maybe the [Proxmox Virtual Environment][proxmox] is working?
+<sup>1)</sup> Most of the [TerraMaster][terra_master] [NAS][nas] systems use an USB stick with the [OS][operating_system] installed. It seems to be easy to install any kind of [OS][operating_system] you want. Maybe the [Proxmox Virtual Environment][proxmox] is working?
 
-<sup>2)</sup> It seems that at least the 4 bay model is using an internal SSD for the OS. It seems to be easy to install any kind of OS you want. Maybe the [Proxmox Virtual Environment][proxmox] is working?
+<sup>2)</sup> It seems that at least the 4 bay model is using an internal SSD for the [OS][operating_system]. It seems to be easy to install any kind of [OS][operating_system] you want. Maybe the [Proxmox Virtual Environment][proxmox] is working?
 
 ## DIY NAS hardware builds
 
@@ -68,7 +68,8 @@ Promising [NAS][nas] hardware will be listet here:
 
 - [Fractal Node Series][case_fractal_node] - PC cases for [NAS][nas]
 - [Geekworm Pi Cases/hats][geekworm_rpi_nas] - various solutions for [RPi][raspberry_pi] based [NAS][nas]
-- [ICY Box internal storage solutions][icybox_internal_storage] - Internal cases and more, e. g. 3 bay cage in size of two 5 1/4, or 5 bay cage in size of three 5 1/4 default case slots
+- [ICY Box internal storage solutions][icybox_internal_storage] - Internal cases and more, e. g. [3 bay cage][icybox_cage_3] in size of two 5 1/4, or [5 bay cage][icybox_cage_5] in size of three 5 1/4 default case slots
+- [ICY Dock][icydock] - Internal cases and more, e. g. [3 bay cage][icydock_cage_3] in size of two 5 1/4, or [5 bay cage][icydock_cage_5] in size of three 5 1/4 default case slots
 - [Interceptor Carrier Board][axzez_interceptor] for [RPi][raspberry_pi] compute module, supports 5 SATA drives
 - [Jonsbo N1][case_jonsbo_n1] - PC case for [NAS][nas]
 - [Radxa SATA hat][radxa sata hat] for [RPi][raspberry_pi]
@@ -107,7 +108,12 @@ Maybe you want to use a PC in front of the storage. In this case you may regard 
 [geekworm_rpi_nas]: https://geekworm.com/search?type=product&q=NAS
 [heise_nas]: https://www.heise.de/preisvergleich/?cat=WL-1682454&hocid=ct
 [highpoint]: https://www.highpoint-tech.com/raid-storage-enclosures
+[icybox_cage_3]: https://dev.icybox.de/product/interne_speicherloesungen/IB-573SSK-12G
+[icybox_cage_5]: https://dev.icybox.de/product/interne_speicherloesungen/IB-575SSK-12G
 [icybox_internal_storage]: https://dev.icybox.de/products/interne_speicherloesungen
+[icydock]: https://global.icydock.com/
+[icydock_cage_3]: https://global.icydock.com/product_58.html
+[icydock_cage_5]: https://global.icydock.com/product_65.html
 [ixsystems]: https://www.truenas.com/
 [ixsystems_hardware]: https://www.truenas.com/truenas-mini/
 [ixsystems_truenas]: https://www.truenas.com/software-status/
