@@ -13,50 +13,58 @@ A curated list about [NAS][info_nas] hardware and software, tips and tricks. Thi
 
 These are manufacturer of [NAS][info_nas] systems and they offer their devices with their own [OS][info_operating_system] installed.
 
-- [ASUSTOR][nas_asustor], founded in 2011
-- [Buffalo][nas_buffalo], first [NAS][info_nas] in 2003
+- [ASUSTOR Inc.][nas_asustor], founded in 2011
+- [Buffalo EU B.V.][nas_buffalo], first [NAS][info_nas] in 2003
 - ~~[Drobo][nas_drobo]~~ [Does not exist anymore][nas_drobo_ex], 2005-2023
 - ~~[kobol][nas_kobol]~~ [Does not exist anymore][nas_kobol_ex], 2017-2021
-- [iXsystems][nas_ixsystems], founded in 1991, offers both, hardware for [NAS][info_nas] and public available [OS][info_operating_system] (TrueNAS) in variants
+- [iXsystems, Inc.][nas_ixsystems], founded in 1991, offers both, hardware for [NAS][info_nas] and public available [OS][info_operating_system] ([TrueNAS][nas_ixsystems_truenas]) in variants
+- [OWC Network Attached Storage][nas_owc], founded in 1988, they use [TrueNAS Scale][os_truenas_scale] on some [devices][nas_owc_jupiter_mini]
 - [PiBox][nas_pibox], founded in 2019
-- [PROMISE Technology][nas_promise]
-- [QNAP][nas_qnap], founded in 2004
-- [Synology][nas_synology], founded in 2000
-- [TerraMaster][nas_terra_master], founded in 2010
-- [Thecus][nas_thecus], founded in 2004
-- [UGreen][nas_ugreen], founded in 2012, first [NAS][info_nas] in 2024
-- [Western Digital][nas_western_digital], founded in 1970
+- [Promise Technology Europe][nas_promise]
+- [QNAP Systems, Inc.][nas_qnap], founded in 2004
+- [Synology Inc.][nas_synology], founded in 2000
+- [TerraMaster Technology Co., Ltd.][nas_terra_master], founded in 2010
+- [Thecus - Subsidiary of Ennoconn][nas_thecus], founded in 2004
+- [Ugreen Amerika Limited][nas_ugreen], founded in 2012, first [NAS][info_nas] in 2024
+- [Western Digital Corporation][nas_western_digital], founded in 1970
 
 <!-- NAS Manufacturers -->
 
-[nas_asustor]: https://www.asustor.com/en/about/about_asustor
-[nas_buffalo]: https://www.buffalo-technology.com
-[nas_drobo]: https://www.drobo.com
+[nas_asustor]: https://www.asustor.com/
+[nas_buffalo]: https://www.buffalo-technology.com/products/?tab=nas
+[nas_drobo]: https://www.drobo.com/
 [nas_drobo_ex]: https://en.wikipedia.org/wiki/Drobo
 [nas_ixsystems]: https://www.truenas.com/
+[nas_ixsystems_truenas]: https://en.wikipedia.org/wiki/TrueNAS
 [nas_kobol]: https://kobol.io/
 [nas_kobol_ex]: https://blog.kobol.io/2021/08/25/we-are-pulling-the-plug/
-[nas_pibox]: https://pibox.io
+[nas_owc]: https://www.owc.com/
+[nas_owc_jupiter_mini]: https://www.owc.com/solutions/jupiter-mini
+[nas_pibox]: https://pibox.io/
 [nas_promise]: https://www.promise.com/
-[nas_qnap]: https://www.qnap.com
-[nas_synology]: https://www.synology.com
-[nas_terra_master]: https://www.terra-master.com
-[nas_thecus]: https://www.thecus.com
+[nas_qnap]: https://www.qnap.com/
+[nas_synology]: https://www.synology.com/
+[nas_terra_master]: https://www.terra-master.com/
+[nas_thecus]: https://www.thecus.com/
 [nas_ugreen]: https://nas.ugreen.com/
-[nas_western_digital]: https://www.westerndigital.com
+[nas_western_digital]: https://www.westerndigital.com/
 
 ## Pimp a commercial NAS
 
 There are some tricks available to pimp a commercial [NAS][info_nas].
 
-- [Synology][nas_synology]
+- [QNAP devices][nas_qnap]
+  - [OMV][tweak_qnap_omv] on TS-453A
+  - [TrueNAS Core][tweak_qnap] on TS-253A and TS-453A
+  - [TrueNAS Core][tweak_qnap_x86] for x86 based devices
+- [Synology devices][nas_synology]
   - [RAM upgrade DS920+][tweak_synology_ds920p_ram]
-- [TerraMaster][nas_terra_master]<sup>1)</sup>
+- [TerraMaster devices][nas_terra_master]<sup>1)</sup>
   - [OMV on F2-220 (German)][tweak_terra_master_f2_220_omv]
   - [RAM upgrade F5-221][tweak_terra_master_f5_221_ram]
-- [UGreen][nas_ugreen]<sup>2)</sup>
+- [UGreen devices][nas_ugreen]<sup>2)</sup>
   - [Unleash UGreen NAS with TrueNAS instead of UGOS (German)][tweak_ugreen_truenas]
-- [Western Digital][nas_western_digital]
+- [Western Digital devices][nas_western_digital]
   - [OMV on PR4100][tweak_western_digital_pr4100_omv]
   - [RAM upgrad PR4100][tweak_western_digital_pr4100_ram]
 
@@ -66,6 +74,9 @@ There are some tricks available to pimp a commercial [NAS][info_nas].
 
 <!-- NAS tweaks -->
 
+[tweak_qnap]: https://www.truenas.com/community/threads/installing-truenas-on-qnap-devices.91484/
+[tweak_qnap_omv]: https://forum.qnapclub.de/blog/entry/602-alternatives-betriebssystem-backup-mit-openmediavault-auf-einem-qnap-nas/
+[tweak_qnap_x86]: https://nascompares.com/2022/09/21/how-to-install-truenas-core-on-a-qnap-nas/
 [tweak_synology_ds920p_ram]: https://www.youtube.com/watch?v=3Ls5E5uTzVU
 [tweak_terra_master_f2_220_omv]: https://www.bachmann-lan.de/terramaster-f2-220-nas-mit-openmediavault/
 [tweak_terra_master_f5_221_ram]: https://www.youtube.com/watch?v=hk_wPRqOSKE
@@ -91,10 +102,10 @@ In case you want to build your own [NAS][info_nas], you can find several instruc
 [builder_brian_moses]: https://blog.briancmoses.com/categories/diy-nas/
 [builder_elefacts]: https://www.elefacts.de/kategorie-nas_hardware-1
 [builder_heise]: https://www.heise.de/preisvergleich/?cat=WL-1682454&hocid=ct
-[builder_jeff_gerling]: https://www.jeffgeerling.com
+[builder_jeff_gerling]: https://www.jeffgeerling.com/
 [builder_michael_lynch]: https://mtlynch.io/building-a-vm-homelab/
 [builder_nassie]: https://github.com/CyberLeader3000/NASsie
-[builder_server_builds]: https://www.serverbuilds.net
+[builder_server_builds]: https://www.serverbuilds.net/
 [builder_technikaffe]: https://www.technikaffe.de/nas-eigenbau/
 
 ## DIY NAS operating systems
@@ -112,15 +123,15 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 
 <!-- NAS operating systems -->
 
-[os_debian]: https://www.debian.org
-[os_freebsd]: https://www.freebsd.org
+[os_debian]: https://www.debian.org/
+[os_freebsd]: https://www.freebsd.org/
 [os_librecmc]: https://librecmc.org/
 [os_librecmc_repos]: https://gogs.librecmc.org/libreCMC
-[os_omv]: https://www.openmediavault.org
+[os_omv]: https://www.openmediavault.org/
 [os_proxmox]: https://www.proxmox.com/en/
 [os_truenas_core]: https://www.truenas.com/truenas-core/
 [os_truenas_scale]: https://www.truenas.com/download-truenas-scale/
-[os_unraid]: https://unraid.net
+[os_unraid]: https://unraid.net/
 [os_xigmanas]: https://xigmanas.com/xnaswp/
 
 ## DIY NAS hardware
@@ -161,13 +172,13 @@ Promising [NAS][info_nas] hardware will be listet here:
 Maybe you want to use a PC in front of the storage. In this case you may regard an external [RAID][info_raid] case supporting USB or thunderbolt.
 
 - [Highpoint][hardware_highpoint]
-- [hardware_owc][hardware_owc]
+- [OWC External Drives][hardware_owc]
 - [Raidsonic][hardware_raidsonic]
 
 <!-- DIY NAS hardware -->
 
 [hardware_highpoint]: https://www.highpoint-tech.com/raid-storage-enclosures
-[hardware_owc]: https://www.owc.com
+[hardware_owc]: https://www.owc.com/solutions/external-drives
 [hardware_raidsonic]: https://icybox.de/en/product-list.php?id=1
 
 ## Disk drive informations
