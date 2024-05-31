@@ -101,16 +101,21 @@ In case you want to build your own [NAS][info_nas], you can find several instruc
 
 For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some potential ones:
 
+- [libreCMC][os_librecmc] - The libre Embedded GNU/Linux Distro<sup>1)</sup>, used on [GnuBee][hardware_gnubee]
 - [Openmediavault][os_omv]
 - [TrueNAS Core][os_truenas_core], based on [FreeBSD][os_freebsd] since 2005
 - [TrueNAS Scale][os_truenas_scale], based on [Debian][os_debian] since 2022
 - [Unraid][os_unraid] (commercial)
 - [XigmaNAS][os_xigmanas]
 
+<sup>1)</sup> The code is NOT on GitHub but on their own [server][os_librecmc_repos]
+
 <!-- NAS operating systems -->
 
 [os_debian]: https://www.debian.org
 [os_freebsd]: https://www.freebsd.org
+[os_librecmc]: https://librecmc.org/
+[os_librecmc_repos]: https://gogs.librecmc.org/libreCMC
 [os_omv]: https://www.openmediavault.org
 [os_proxmox]: https://www.proxmox.com/en/
 [os_truenas_core]: https://www.truenas.com/truenas-core/
@@ -124,6 +129,7 @@ Promising [NAS][info_nas] hardware will be listet here:
 
 - [Fractal Node Series][hardware_fractal_node] - PC cases for [NAS][info_nas]
 - [Geekworm Pi Cases/hats][hardware_geekworm_rpi] - various solutions for [RPi][hardware_raspberry_pi] based [NAS][info_nas]
+- [GnuBee][hardware_gnubee] - GnuBee: [NAS][info_nas] for a personal cloud
 - [ICY Box internal storage solutions][hardware_icybox_internal_storage] - Internal cases and more, e. g. [3 bay cage][hardware_icybox_cage_3] in size of two 5 1/4, or [5 bay cage][hardware_icybox_cage_5] in size of three 5 1/4 default case slots
 - [ICY Dock][hardware_icydock] - Internal cases and more, e. g. [3 bay cage][hardware_icydock_cage_3] in size of two 5 1/4, or [5 bay cage][hardware_icydock_cage_5] in size of three 5 1/4 default case slots
 - [Interceptor Carrier Board][hardware_axzez_interceptor] for [RPi][hardware_raspberry_pi] compute module, supports 5 SATA drives
@@ -137,6 +143,7 @@ Promising [NAS][info_nas] hardware will be listet here:
 [hardware_axzez_interceptor]: https://www.axzez.com/axzez-circuit-boards
 [hardware_fractal_node]: https://www.fractal-design.com/de/products/cases/node/
 [hardware_geekworm_rpi]: https://geekworm.com/search?type=product&q=NAS
+[hardware_gnubee]: http://gnubee.org/
 [hardware_icybox_cage_3]: https://dev.icybox.de/product/interne_speicherloesungen/IB-573SSK-12G
 [hardware_icybox_cage_5]: https://dev.icybox.de/product/interne_speicherloesungen/IB-575SSK-12G
 [hardware_icybox_internal_storage]: https://dev.icybox.de/products/interne_speicherloesungen
