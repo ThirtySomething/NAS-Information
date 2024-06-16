@@ -61,6 +61,8 @@ There are some tricks available to pimp a commercial [NAS][info_nas].
   - [RAM upgrade DS920+][tweak_synology_ds920p_ram]
 - [TerraMaster devices][nas_terra_master]<sup>1)</sup>
   - [OMV on F2-220 (German)][tweak_terra_master_f2_220_omv]
+  - [Proxmox on T6-423 (German)][tweak_terra_master_t6_423]
+  - [Proxmox on F4-424 (German)][tweak_terra_master_f4-424]
   - [RAM upgrade F5-221][tweak_terra_master_f5_221_ram]
 - [UGreen devices][nas_ugreen]<sup>2)</sup>
   - [Unleash UGreen NAS with TrueNAS instead of UGOS (German)][tweak_ugreen_truenas]
@@ -79,7 +81,9 @@ There are some tricks available to pimp a commercial [NAS][info_nas].
 [tweak_qnap_x86]: https://nascompares.com/2022/09/21/how-to-install-truenas-core-on-a-qnap-nas/
 [tweak_synology_ds920p_ram]: https://www.youtube.com/watch?v=3Ls5E5uTzVU
 [tweak_terra_master_f2_220_omv]: https://www.bachmann-lan.de/terramaster-f2-220-nas-mit-openmediavault/
+[tweak_terra_master_f4-424]: https://www.youtube.com/watch?v=IattZevg7xY
 [tweak_terra_master_f5_221_ram]: https://www.youtube.com/watch?v=hk_wPRqOSKE
+[tweak_terra_master_t6_423]: https://www.youtube.com/watch?v=OMAgRPBngZI
 [tweak_ugreen_truenas]: https://www.youtube.com/watch?v=BWNH_JzMNPc
 [tweak_western_digital_pr4100_omv]: https://forum.openmediavault.org/index.php?thread/37009-can-i-install-omv-on-a-wd-nas/
 [tweak_western_digital_pr4100_ram]: https://www.youtube.com/watch?v=rMvw9gGN7dc
@@ -184,9 +188,13 @@ Maybe you want to use a PC in front of the storage. In this case you may regard 
 ## Disk drive informations
 
 - [Backblaze Hard Drive Data and Stats][info_backblaze_hdd]
+- [Buffalo: CMR vs SMR Hard Drives in Network Attached Storage (NAS)][info_buffalo_cmr_smr]
+- [NAS Compares: SMR, CMR and PMR NAS Hard Drives- A Buyers Guide 2021][info_nas_disk_drives]
 - [Shingled Magnetic Recording vs Conventional Magnetic Recording (German)][info_smr_vs_cmr]
 
 <!-- Common (NAS) infos -->
 
 [info_backblaze_hdd]: https://www.backblaze.com/b2/hard-drive-test-data.html
+[info_buffalo_cmr_smr]: https://www.buffalotech.com/resources/cmr-vs-smr-hard-drives-in-network-attached-storage-nas-msp
+[info_nas_disk_drives]: https://nascompares.com/2021/04/22/smr-cmr-and-pmr-nas-hard-drives-a-buyers-guide-2021/
 [info_smr_vs_cmr]: https://www.elefacts.de/test-160-nas_festplatten_mit_smr_oder_cmr_ein_ueberblick_im_jahr_2021
