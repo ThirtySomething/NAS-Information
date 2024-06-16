@@ -27,6 +27,7 @@ These are manufacturer of [NAS][info_nas] systems and they offer their devices w
 - [Thecus - Subsidiary of Ennoconn][nas_thecus], founded in 2004
 - [Ugreen Amerika Limited][nas_ugreen], founded in 2012, first [NAS][info_nas] in 2024
 - [Western Digital Corporation][nas_western_digital], founded in 1970
+- [Zima][nas_zima], offers both, hardware for [NAS][info_nas] and public available [OS][info_operating_system] ([CasaOS][os_casaos])
 
 <!-- NAS Manufacturers -->
 
@@ -48,6 +49,7 @@ These are manufacturer of [NAS][info_nas] systems and they offer their devices w
 [nas_thecus]: https://www.thecus.com/
 [nas_ugreen]: https://nas.ugreen.com/
 [nas_western_digital]: https://www.westerndigital.com/
+[nas_zima]: https://www.zimaspace.com/
 
 ## Pimp a commercial [NAS][info_nas]
 
@@ -116,6 +118,7 @@ In case you want to build your own [NAS][info_nas], you can find several instruc
 
 For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some potential ones:
 
+- [CasaOS: Your Personal Cloud OS][os_casaos] - Runs on top of Debian/Ubuntu/Rasperry Pi OS and others
 - [libreCMC][os_librecmc] - The libre Embedded GNU/Linux Distro<sup>1)</sup>, used on [GnuBee][hardware_gnubee]
 - [Openmediavault][os_omv]
 - [Proxmox][os_proxmox] - A hypervisor where you can run any OS in virtual machines
@@ -128,6 +131,7 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 
 <!-- NAS operating systems -->
 
+[os_casaos]: https://casaos.io/
 [os_debian]: https://www.debian.org/
 [os_freebsd]: https://www.freebsd.org/
 [os_librecmc]: https://librecmc.org/
