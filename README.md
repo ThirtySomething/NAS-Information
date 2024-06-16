@@ -1,6 +1,6 @@
-# NAS-Information
+# [NAS][info_nas]-Information
 
-A curated list about [NAS][info_nas] hardware and software, tips and tricks. This list is licenced by the [MIT license][license_mit].
+A curated list about [NAS][info_nas] hardware and software, tips and tricks. This list published using the [MIT license][license_mit].
 
 <!-- Common (NAS) infos -->
 
@@ -139,7 +139,7 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 [os_unraid]: https://unraid.net/
 [os_xigmanas]: https://xigmanas.com/xnaswp/
 
-## DIY NAS hardware
+## DIY [NAS][info_nas] hardware
 
 Promising [NAS][info_nas] hardware will be listet here:
 
