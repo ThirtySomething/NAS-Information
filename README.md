@@ -9,7 +9,7 @@ A curated list about [NAS][info_nas] hardware and software, tips and tricks. Thi
 [info_raid]: https://en.wikipedia.org/wiki/RAID
 [license_mit]: ./LICENSE
 
-## NAS manufacturer
+## [NAS][info_nas] manufacturer
 
 These are manufacturer of [NAS][info_nas] systems and they offer their devices with their own [OS][info_operating_system] installed.
 
@@ -49,7 +49,7 @@ These are manufacturer of [NAS][info_nas] systems and they offer their devices w
 [nas_ugreen]: https://nas.ugreen.com/
 [nas_western_digital]: https://www.westerndigital.com/
 
-## Pimp a commercial NAS
+## Pimp a commercial [NAS][info_nas]
 
 There are some tricks available to pimp a commercial [NAS][info_nas].
 
@@ -88,7 +88,7 @@ There are some tricks available to pimp a commercial [NAS][info_nas].
 [tweak_western_digital_pr4100_omv]: https://forum.openmediavault.org/index.php?thread/37009-can-i-install-omv-on-a-wd-nas/
 [tweak_western_digital_pr4100_ram]: https://www.youtube.com/watch?v=rMvw9gGN7dc
 
-## DIY NAS hardware builds
+## DIY [NAS][info_nas] hardware builds
 
 In case you want to build your own [NAS][info_nas], you can find several instructions:
 
@@ -99,7 +99,7 @@ In case you want to build your own [NAS][info_nas], you can find several instruc
 - [Michael Lynch][builder_michael_lynch]
 - [NASsie][builder_nassie] - a [RPi][hardware_raspberry_pi] based [NAS][info_nas] using the compute module
 - [Serverbuilds, a kind of NAS community][builder_server_builds]
-- [Technikaffe, a German Site][builder_technikaffe]
+- [Technikaffe, a German site][builder_technikaffe]
 
 <!-- DIY NAS builds -->
 
@@ -112,12 +112,13 @@ In case you want to build your own [NAS][info_nas], you can find several instruc
 [builder_server_builds]: https://www.serverbuilds.net/
 [builder_technikaffe]: https://www.technikaffe.de/nas-eigenbau/
 
-## DIY NAS operating systems
+## DIY [NAS][info_nas] operating systems
 
 For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some potential ones:
 
 - [libreCMC][os_librecmc] - The libre Embedded GNU/Linux Distro<sup>1)</sup>, used on [GnuBee][hardware_gnubee]
 - [Openmediavault][os_omv]
+- [Proxmox][os_proxmox] - A hypervisor where you can run any OS in virtual machines
 - [TrueNAS Core][os_truenas_core], based on [FreeBSD][os_freebsd] since 2005
 - [TrueNAS Scale][os_truenas_scale], based on [Debian][os_debian] since 2022
 - [Unraid][os_unraid] (commercial)
@@ -132,7 +133,7 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 [os_librecmc]: https://librecmc.org/
 [os_librecmc_repos]: https://gogs.librecmc.org/libreCMC
 [os_omv]: https://www.openmediavault.org/
-[os_proxmox]: https://www.proxmox.com/en/
+[os_proxmox]: https://www.proxmox.com/
 [os_truenas_core]: https://www.truenas.com/truenas-core/
 [os_truenas_scale]: https://www.truenas.com/download-truenas-scale/
 [os_unraid]: https://unraid.net/
@@ -149,7 +150,8 @@ Promising [NAS][info_nas] hardware will be listet here:
 - [ICY Dock][hardware_icydock] - Internal cases and more, e. g. [3 bay cage][hardware_icydock_cage_3] in size of two 5 1/4, or [5 bay cage][hardware_icydock_cage_5] in size of three 5 1/4 default case slots
 - [Interceptor Carrier Board][hardware_axzez_interceptor] for [RPi][hardware_raspberry_pi] compute module, supports 5 SATA drives
 - [Jonsbo][hardware_jonsbo] - PC cases for [NAS][info_nas] builds
-- [hardware_radxa sata hat][hardware_radxa sata hat] for [RPi][hardware_raspberry_pi]
+- [Radxa Penta SATA HAT][hardware_radxa sata hat] for [RPi][hardware_raspberry_pi]
+- [Silverstone][hardware_silverstone] - PC cases for [NAS][info_nas] and more, e. g. [5 bay cage][hardware_silverstone_cage_5] in size of three 5 1/4 default case slots or the [5 bay NAS case][hardware_silverstone_nas_case]
 - [Topton NAS boards][hardware_topton] - For the brave: Topton mainboards on AliExpress
 - ~~[Wiretrustee][hardware_wiretrustee_ex]~~ - Project stopped, plans for hardware are public available
 
@@ -168,6 +170,9 @@ Promising [NAS][info_nas] hardware will be listet here:
 [hardware_jonsbo]: https://www.jonsbo.com/en/product/ComputerCase/NASMotherboardSeries.html
 [hardware_radxa sata hat]: https://radxa.com/products/accessories/penta-sata-hat/
 [hardware_raspberry_pi]: https://www.raspberrypi.com/
+[hardware_silverstone]: https://www.silverstonetek.com/
+[hardware_silverstone_cage_5]: https://www.silverstonetek.com/en/product/info/storage/FS305-12G/
+[hardware_silverstone_nas_case]: https://www.silverstonetek.com/en/product/info/computer-chassis/CS351/
 [hardware_topton]: https://www.aliexpress.com/w/wholesale-topton-nas-board.html?spm=a2g0o.home.search.0
 [hardware_wiretrustee_ex]: https://github.com/wiretrustee/cm4-sata-board
 
