@@ -152,15 +152,18 @@ Promising [NAS][info_nas] hardware will be listet here:
 - [GnuBee][hardware_gnubee] - GnuBee: [NAS][info_nas] for a personal cloud
 - [ICY Box internal storage solutions][hardware_icybox_internal_storage] - Internal cases and more, e. g. [3 bay cage][hardware_icybox_cage_3] in size of two 5 1/4, or [5 bay cage][hardware_icybox_cage_5] in size of three 5 1/4 default case slots
 - [ICY Dock][hardware_icydock] - Internal cases and more, e. g. [3 bay cage][hardware_icydock_cage_3] in size of two 5 1/4, or [5 bay cage][hardware_icydock_cage_5] in size of three 5 1/4 default case slots
-- [Interceptor Carrier Board][hardware_axzez_interceptor] for [RPi][hardware_raspberry_pi] compute module, supports 5 SATA drives
+- [Interceptor Carrier Board][hardware_axzez_interceptor] for [RPi compute module][hardware_raspberrypi_compute_module4], supports 5 SATA drives
 - [Jonsbo][hardware_jonsbo] - PC cases for [NAS][info_nas] builds
 - [Radxa Penta SATA HAT][hardware_radxa sata hat] for [RPi][hardware_raspberry_pi]
 - [Silverstone][hardware_silverstone] - PC cases for [NAS][info_nas] and more, e. g. [5 bay cage][hardware_silverstone_cage_5] in size of three 5 1/4 default case slots or the [5 bay NAS case][hardware_silverstone_nas_case]
 - [Topton NAS boards][hardware_topton] - For the brave: Topton mainboards on AliExpress
+- [Waveshare "PiBox"][hardware_waveshare_pibox] - Similar case to [PiBox][nas_pibox], for two 2 1/2" disk drives and a large display
+- [Waveshare "Flashtor"][hardware_waveshare_flashtor] - Case with carrierboard for [Raspberry Pi Compute Module 4][hardware_raspberrypi_compute_module4] and two M2 NVME slots, similar to [Asustor Flashtor][hardware_asustor_flashtor]
 - ~~[Wiretrustee][hardware_wiretrustee_ex]~~ - Project stopped, plans for hardware are public available
 
 <!-- DIY NAS hardware -->
 
+[hardware_asustor_flashtor]: https://www.asustor.com/de/product?p_id=79
 [hardware_axzez_interceptor]: https://www.axzez.com/axzez-circuit-boards
 [hardware_fractal_node]: https://www.fractal-design.com/de/products/cases/node/
 [hardware_geekworm_rpi]: https://geekworm.com/search?type=product&q=NAS
@@ -172,12 +175,15 @@ Promising [NAS][info_nas] hardware will be listet here:
 [hardware_icydock_cage_3]: https://global.icydock.com/product_58.html
 [hardware_icydock_cage_5]: https://global.icydock.com/product_65.html
 [hardware_jonsbo]: https://www.jonsbo.com/en/product/ComputerCase/NASMotherboardSeries.html
+[hardware_raspberrypi_compute_module4]: https://www.raspberrypi.com/products/compute-module-4/?variant=raspberry-pi-cm4001000
 [hardware_radxa sata hat]: https://radxa.com/products/accessories/penta-sata-hat/
 [hardware_raspberry_pi]: https://www.raspberrypi.com/
 [hardware_silverstone]: https://www.silverstonetek.com/
 [hardware_silverstone_cage_5]: https://www.silverstonetek.com/en/product/info/storage/FS305-12G/
 [hardware_silverstone_nas_case]: https://www.silverstonetek.com/en/product/info/computer-chassis/CS351/
 [hardware_topton]: https://www.aliexpress.com/w/wholesale-topton-nas-board.html?spm=a2g0o.home.search.0
+[hardware_waveshare_pibox]: https://www.waveshare.com/cm4-nas-double-deck-c4a.htm?sku=23880
+[hardware_waveshare_flashtor]: https://www.waveshare.com/cm4-nvme-nas-box.htm
 [hardware_wiretrustee_ex]: https://github.com/wiretrustee/cm4-sata-board
 
 ## External cases
