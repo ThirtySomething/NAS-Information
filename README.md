@@ -4,6 +4,7 @@ A curated list about [NAS][info_nas] hardware and software, tips and tricks. Thi
 
 <!-- Common (NAS) infos -->
 
+[info_docker]: https://en.wikipedia.org/wiki/Docker_(software)
 [info_nas]: https://en.wikipedia.org/wiki/Network-attached_storage
 [info_operating_system]: https://en.wikipedia.org/wiki/Operating_system
 [info_raid]: https://en.wikipedia.org/wiki/RAID
@@ -124,10 +125,13 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 - [Proxmox][os_proxmox] - A hypervisor where you can run any OS in virtual machines
 - [TrueNAS Core][os_truenas_core], based on [FreeBSD][os_freebsd] since 2005
 - [TrueNAS Scale][os_truenas_scale], based on [Debian][os_debian] since 2022
+- [umbrelOS][os_umbrelos] - The no-brainer home cloud OS<sup>2)</sup>
 - [Unraid][os_unraid] (commercial)
 - [XigmaNAS][os_xigmanas]
 
 <sup>1)</sup> The code is NOT on GitHub but on their own [server][os_librecmc_repos]
+
+<sup>2)</sup> The [OS][info_operating_system] does not support [RAID][info_raid], more a [Docker OS][info_docker].
 
 <!-- NAS operating systems -->
 
@@ -140,6 +144,7 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 [os_proxmox]: https://www.proxmox.com/
 [os_truenas_core]: https://www.truenas.com/truenas-core/
 [os_truenas_scale]: https://www.truenas.com/download-truenas-scale/
+[os_umbrelos]: https://umbrel.com/umbrelos#install
 [os_unraid]: https://unraid.net/
 [os_xigmanas]: https://xigmanas.com/xnaswp/
 
