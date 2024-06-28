@@ -120,6 +120,7 @@ In case you want to build your own [NAS][info_nas], you can find several instruc
 For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some potential ones:
 
 - [CasaOS: Your Personal Cloud OS][os_casaos] - Runs on top of Debian/Ubuntu/Rasperry Pi OS and others
+- [Cosmos - Escape the cloud][os_cosmos]: A [Docker][info_docker] based [OS][info_operating_system]
 - [libreCMC][os_librecmc] - The libre Embedded GNU/Linux Distro<sup>1)</sup>, used on [GnuBee][hardware_gnubee]
 - [Openmediavault][os_omv]
 - [Proxmox][os_proxmox] - A hypervisor where you can run any OS in virtual machines
@@ -136,6 +137,7 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 <!-- NAS operating systems -->
 
 [os_casaos]: https://casaos.io/
+[os_cosmos]: https://cosmos-cloud.io/
 [os_debian]: https://www.debian.org/
 [os_freebsd]: https://www.freebsd.org/
 [os_librecmc]: https://librecmc.org/
