@@ -5,6 +5,7 @@ A curated list about [NAS][info_nas] hardware and software, tips and tricks. Thi
 <!-- Common (NAS) infos -->
 
 [info_docker]: https://en.wikipedia.org/wiki/Docker_(software)
+[info_jbod]: https://en.wikipedia.org/wiki/Non-RAID_drive_architectures#JBOD
 [info_nas]: https://en.wikipedia.org/wiki/Network-attached_storage
 [info_operating_system]: https://en.wikipedia.org/wiki/Operating_system
 [info_raid]: https://en.wikipedia.org/wiki/RAID
@@ -119,20 +120,24 @@ In case you want to build your own [NAS][info_nas], you can find several instruc
 
 For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some potential ones:
 
-- [CasaOS: Your Personal Cloud OS][os_casaos] - Runs on top of Debian/Ubuntu/Rasperry Pi OS and others
+- [CasaOS: Your Personal Cloud OS][os_casaos]<sup>1)</sup> - Runs on top of Debian/Ubuntu/Rasperry Pi OS and others
 - [Cosmos - Escape the cloud][os_cosmos]: A [Docker][info_docker] based [OS][info_operating_system]
-- [libreCMC][os_librecmc] - The libre Embedded GNU/Linux Distro<sup>1)</sup>, used on [GnuBee][hardware_gnubee]
-- [Openmediavault][os_omv]
+- [libreCMC][os_librecmc] - The _libre_ Embedded GNU/Linux Distro<sup>2)</sup>, used on [GnuBee][hardware_gnubee]
+- [Openmediavault][os_omv] - The open network attached storage solution, since 2009
 - [Proxmox][os_proxmox] - A hypervisor where you can run any OS in virtual machines
 - [TrueNAS Core][os_truenas_core], based on [FreeBSD][os_freebsd] since 2005
 - [TrueNAS Scale][os_truenas_scale], based on [Debian][os_debian] since 2022
-- [umbrelOS][os_umbrelos] - The no-brainer home cloud OS<sup>2)</sup>
-- [Unraid][os_unraid] (commercial)
-- [XigmaNAS][os_xigmanas]
+- [umbrelOS][os_umbrelos] - The no-brainer home cloud OS<sup>3)</sup>
+- [Unraid][os_unraid] (commercial), since 2005
+- [XigmaNAS][os_xigmanas], fork of FreeNAS<sup>4)</sup>, since 2012
 
-<sup>1)</sup> The code is NOT on GitHub but on their own [server][os_librecmc_repos]
+<sup>1)</sup> The [OS][info_operating_system] does not support [RAID][info_raid], more a [Docker OS][info_docker], the `Merge Storage` option (Beta) seems to bundle the disks like [JBOD][info_jbod].
 
-<sup>2)</sup> The [OS][info_operating_system] does not support [RAID][info_raid], more a [Docker OS][info_docker].
+<sup>2)</sup> The code is NOT on GitHub but on their own [server][os_librecmc_repos]
+
+<sup>3)</sup> The [OS][info_operating_system] does not support [RAID][info_raid], more a [Docker OS][info_docker].
+
+<sup>4)</sup> The former FreeNAS project is also the root of [TrueNAS Core][nas_ixsystems_truenas] of the copmany [iXsystems][nas_ixsystems].
 
 <!-- NAS operating systems -->
 
@@ -192,6 +197,27 @@ Promising [NAS][info_nas] hardware will be listet here:
 [hardware_waveshare_pibox]: https://www.waveshare.com/cm4-nas-double-deck-c4a.htm?sku=23880
 [hardware_waveshare_flashtor]: https://www.waveshare.com/cm4-nvme-nas-box.htm
 [hardware_wiretrustee_ex]: https://github.com/wiretrustee/cm4-sata-board
+
+## DIY [NAS][info_nas] software
+
+The basic job of a [NAS][info_nas] is to provide storage over the network. But nowadays a [NAS][info_nas] is more like a home server and offers countless opportunities for
+
+- Network wide ad filtering by [AdGuard][app_adguard] or [Pi-hole][app_pihole]
+- Organizing images by [Photoprism][app_photoprism]
+- Smart home control by [Home Assistant][app_homeassistant]
+- Streaming movies and/or music by [Emby][app_emby], [Jellyfin][app_jellyfin] or [Plex][app_plex]
+
+So most of this software is avaliable for [Docker][info_docker]. There is native support for [Docker][info_docker] available at least in [OMV][os_omv], [TrueNAS Core][os_truenas_core] and [TrueNAS Scale][os_truenas_scale].
+
+But there are also [OS][info_operating_system] which forces the usage of [Docker][info_docker] with less the focus on classical [NAS][info_nas] features like [CasaOS][os_casaos], [cosmos-cloud][os_cosmos] or [umbrelOS][os_umbrelos].
+
+[app_adguard]: https://adguard.com/en/welcome.html
+[app_emby]: https://emby.media/
+[app_homeassistant]: https://www.home-assistant.io/
+[app_jellyfin]: https://jellyfin.org/
+[app_photoprism]: https://www.photoprism.app/
+[app_pihole]: https://pi-hole.net/
+[app_plex]: https://www.plex.tv/en-gb/
 
 ## External cases
 
