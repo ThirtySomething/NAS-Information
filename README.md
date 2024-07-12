@@ -4,11 +4,17 @@ A curated list about [NAS][info_nas] hardware and software, tips and tricks. Thi
 
 <!-- Common (NAS) infos -->
 
+[info_backup]: https://en.wikipedia.org/wiki/Backup
 [info_docker]: https://en.wikipedia.org/wiki/Docker_(software)
 [info_jbod]: https://en.wikipedia.org/wiki/Non-RAID_drive_architectures#JBOD
 [info_nas]: https://en.wikipedia.org/wiki/Network-attached_storage
 [info_operating_system]: https://en.wikipedia.org/wiki/Operating_system
 [info_raid]: https://en.wikipedia.org/wiki/RAID
+[info_raid_0]: https://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_0
+[info_raid_1]: https://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_1
+[info_raid_5]: https://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_5
+[info_raid_6]: https://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_6
+[info_wtf]: https://en.wikipedia.org/wiki/Fuck#Modern_usage
 [license_mit]: ./LICENSE
 
 ## [NAS][info_nas] manufacturer
@@ -53,9 +59,9 @@ These are manufacturer of [NAS][info_nas] systems and they offer their devices w
 [nas_western_digital]: https://www.westerndigital.com/
 [nas_zima]: https://www.zimaspace.com/
 
-## Pimp a commercial [NAS][info_nas]
+## Tune a commercial [NAS][info_nas]
 
-There are some tricks available to pimp a commercial [NAS][info_nas].
+There are some tricks available to tune a commercial [NAS][info_nas].
 
 - [QNAP devices][nas_qnap]
   - [OMV][tweak_qnap_omv] on TS-453A
@@ -127,6 +133,7 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 - [Proxmox][os_proxmox] - A hypervisor where you can run any OS in virtual machines
 - [TrueNAS Core][os_truenas_core], based on [FreeBSD][os_freebsd] since 2005
 - [TrueNAS Scale][os_truenas_scale], based on [Debian][os_debian] since 2022
+- [Turnkey Linux Fileserver][os_turnkey_linux], since 2008
 - [umbrelOS][os_umbrelos] - The no-brainer home cloud OS<sup>3)</sup>
 - [Unraid][os_unraid] (commercial), since 2005
 - [XigmaNAS][os_xigmanas], fork of FreeNAS<sup>4)</sup>, since 2012
@@ -151,6 +158,7 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 [os_proxmox]: https://www.proxmox.com/
 [os_truenas_core]: https://www.truenas.com/truenas-core/
 [os_truenas_scale]: https://www.truenas.com/download-truenas-scale/
+[os_turnkey_linux]: https://www.turnkeylinux.org/
 [os_umbrelos]: https://umbrel.com/umbrelos#install
 [os_unraid]: https://unraid.net/
 [os_xigmanas]: https://xigmanas.com/xnaswp/
@@ -246,3 +254,57 @@ Maybe you want to use a PC in front of the storage. In this case you may regard 
 [info_buffalo_cmr_smr]: https://www.buffalotech.com/resources/cmr-vs-smr-hard-drives-in-network-attached-storage-nas-msp
 [info_nas_disk_drives]: https://nascompares.com/2021/04/22/smr-cmr-and-pmr-nas-hard-drives-a-buyers-guide-2021/
 [info_smr_vs_cmr]: https://www.elefacts.de/test-160-nas_festplatten_mit_smr_oder_cmr_ein_ueberblick_im_jahr_2021
+
+## Configurations
+
+These section will describe possible configurations which are common used.
+
+### [NAS][info_nas] with one disk drive
+
+A [NAS][info_nas] with one disk drive (named 1-bay) offers storage in the network. There is no security mechanism against hardware failures. In case the disk drive gets somehow broken, all data is lost.
+
+### [NAS][info_nas] with two disk drives
+
+A [NAS][info_nas] with two disk drives (named 2-bay) offers at least three variants of storage. There are
+
+- [JBOD][info_jbod] - all disks drives are logically grouped and seems to be like one drive. The disks may have different sizes. The available storage size is the sum of both disk drives. To loose data is very high if a disk drive somehow gets broken.
+- [RAID 0][info_raid_0] (striping) - all disk drives are logically grouped and seems to be like one drive. The disk drives must have the same size. The available storage size is the sum of both disk drives. If one disk drives gets somehow broken, all data is lost.
+- [RAID 1][info_raid_1] (mirroring) - all disk drives are logically grouped and seems to be like one drive. The disk drives must have the same size. The available storage size is the size of one disk drive. If one of the disk drives gets somehow broken, the data is still available from the other disk.
+
+### [NAS][info_nas] with four disk drives
+
+A [NAS][info_nas] with four disks (named 4-bay) offers various configuration options. There are
+
+- [JBOD][info_jbod] - see description above
+- [RAID 0][info_raid_0] - see description above
+- [RAID 1][info_raid_1] - see description above
+- [RAID 5][info_raid_5] (distributed parity) - all disk drives are logically grouped and seems to be like one drive. The disks must have the same size. The available storage size is the sum of three disk drives. If one of the disk drives gets somehow broken, the data is still available from the other disk drives.
+- [RAID 6][info_raid_6] - all disk drives are logically grouped and seems to be like one drive. The disks must have the same size. The available storage size is the sum of two disk drives. If one or two of the disk drives gets somehow broken, the data is still available from the other disk drives.
+
+### [NAS][info_nas] with more than four disk drives
+
+For [NAS][info_nas] systems with more than four disk drives there are all listed configurations possible and even combinations of [RAID levels][info_raid] of them. This is more related to professional usage and not relevant for private use.
+
+## Szenarios
+
+### Distributed [NAS][info_nas] system
+
+A distributed [NAS][info_nas] system - [WTF][info_wtf]? This needs explanation. Most users misunderstand a [NAS][info_nas] system as kind of [backup][info_backup] system. But this is wrong. A [NAS][info_nas] provides some kind of snapshot of data. A [backup][info_backup] offers access to data missing in the snapshot. And for security reasons, the [backup][info_backup] should be located on a different location than the snapshot data. In concrete this means that the [NAS][info_nas] is at my home for example and the [backup][info_backup] at my parents home.
+
+The app [Syncthing][app_syncthing] is important for the distributed [NAS][info_nas]. Assume that you have two parties, and each of them will have private data in size of aproximately 1 TB. So let's have two [NAS][info_nas] systems, one bay with a disk size of 4 TB. One moment - one bay [NAS][info_nas]? What about if the disk drive gets somehow broken? The data is almost save!
+
+First of all install [Syncthing][app_syncthing] on the local PC and on the [NAS][info_nas]. Then establish a two way synchronization between the PC and the [NAS][info_nas]. This has to be done for both parties.
+
+In a second step establish also an additional two way synchronization between the two [NAS][info_nas] systems. This time ensure that in the section [File Versioning][info_syncthing_fileversioning] you choose the right versioning system for your demands.
+
+As summary you have
+
+- Your data on your [NAS][info_nas]
+- Have a [backup][info_backup] of your data
+  - On your [NAS][info_nas]
+  - On the second parties [NAS][info_nas]
+
+Et voilá - this ia a distributed [NAS][info_nas].
+
+[app_syncthing]: https://syncthing.net/
+[info_syncthing_fileversioning]: https://docs.syncthing.net/v1.27.7/users/versioning
