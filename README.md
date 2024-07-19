@@ -21,10 +21,13 @@ A curated list about [NAS][info_nas] hardware and software, tips and tricks. Thi
 
 These are manufacturer of [NAS][info_nas] systems and they offer their devices with their own [OS][info_operating_system] installed.
 
+- [Amber][nas_amber]
 - [ASUSTOR Inc.][nas_asustor], founded in 2011
 - [Buffalo EU B.V.][nas_buffalo], first [NAS][info_nas] in 2003
 - ~~[Drobo][nas_drobo]~~ [Does not exist anymore][nas_drobo_ex], 2005-2023
 - ~~[kobol][nas_kobol]~~ [Does not exist anymore][nas_kobol_ex], 2017-2021
+- [fantec][nas_fantec]<sup>1)</sup>
+- [ioSafe][nas_iosafe]
 - [iXsystems, Inc.][nas_ixsystems], founded in 1991, offers both, hardware for [NAS][info_nas] and public available [OS][info_operating_system] ([TrueNAS][nas_ixsystems_truenas]) in variants
 - [OWC Network Attached Storage][nas_owc], founded in 1988, they use [TrueNAS Scale][os_truenas_scale] on some [devices][nas_owc_jupiter_mini]
 - [PiBox][nas_pibox], founded in 2019
@@ -37,12 +40,18 @@ These are manufacturer of [NAS][info_nas] systems and they offer their devices w
 - [Western Digital Corporation][nas_western_digital], founded in 1970
 - [Zima][nas_zima], offers both, hardware for [NAS][info_nas] and public available [OS][info_operating_system] ([CasaOS][os_casaos])
 
+<sup>1)</sup>The fantec [NAS CL-35B2][nas_fantec_cl35b2] is outdated
+
 <!-- NAS Manufacturers -->
 
+[nas_amber]: https://amberpro.net/de/products
 [nas_asustor]: https://www.asustor.com/
 [nas_buffalo]: https://www.buffalo-technology.com/products/?tab=nas
 [nas_drobo]: https://www.drobo.com/
 [nas_drobo_ex]: https://en.wikipedia.org/wiki/Drobo
+[nas_fantec]: https://www.fantec.de/en
+[nas_fantec_cl35b2]: https://www.fantec.de/en/products/storage-devices/external-hard-drives/35-inch-external-hard-drives/produkt/details/artikel/1558_fantec_cl_35b2/
+[nas_iosafe]: https://iosafe.com/
 [nas_ixsystems]: https://www.truenas.com/
 [nas_ixsystems_truenas]: https://en.wikipedia.org/wiki/TrueNAS
 [nas_kobol]: https://kobol.io/
