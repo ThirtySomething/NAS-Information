@@ -315,7 +315,7 @@ As summary you have
 
 Et voilá - this ia a distributed [NAS][info_nas]. See the image for more details. To `sync` a folder means that the folder is shared between the clients.
 
-![Distributed NAS](/images/distributed_nas.png)
+![Distributed NAS](/Images/distributed_nas.png)
 
 [app_syncthing]: https://syncthing.net/
 [info_syncthing_fileversioning]: https://docs.syncthing.net/v1.27.7/users/versioning
