@@ -304,7 +304,7 @@ The app [Syncthing][app_syncthing] is important for the distributed [NAS][info_n
 
 First of all install [Syncthing][app_syncthing] on the local PC and on the [NAS][info_nas]. Then establish a two way synchronization between the PC and the [NAS][info_nas]. This has to be done for both parties.
 
-In a second step establish also an additional two way synchronization between the two [NAS][info_nas] systems. This time ensure that in the section [File Versioning][info_syncthing_fileversioning] you choose the right versioning system for your demands.
+In a second step establish also an additional two way synchronization between the two [NAS][info_nas] systems. This time ensure that in the section [File Versioning][info_syncthing_fileversioning] you choose the right versioning system for your demands. For example a `staggered file versioning` is much better than `simple file versioning`. Why? Assume you get files containing a timestamp. While using the `staggered file versioning` somewhere old versions will be deleted. The same scenario using the `simple file versioning` will never delete any old version and will bloat the storage size used by [Syncthing][app_syncthing].
 
 As summary you have
 
@@ -313,7 +313,9 @@ As summary you have
   - On your [NAS][info_nas]
   - On the second parties [NAS][info_nas]
 
-Et voilá - this ia a distributed [NAS][info_nas].
+Et voilá - this ia a distributed [NAS][info_nas]. See the image for more details. To `sync` a folder means that the folder is shared between the clients.
+
+![Distributed NAS](/images/distributed_nas.png)
 
 [app_syncthing]: https://syncthing.net/
 [info_syncthing_fileversioning]: https://docs.syncthing.net/v1.27.7/users/versioning

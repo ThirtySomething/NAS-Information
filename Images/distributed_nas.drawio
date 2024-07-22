@@ -1,0 +1,134 @@
+<mxfile host="65bd71144e">
+    <diagram id="Di6c1o8_KcUGrmYrvIGS" name="Page-1">
+        <mxGraphModel dx="909" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="20" value="" style="shape=mxgraph.cisco.computers_and_peripherals.pc;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="80" width="78" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.nas;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="80" width="70" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="shape=mxgraph.cisco.computers_and_peripherals.pc;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="80" width="78" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.nas;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="80" width="70" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="1. Install Syncthing on each PC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="-70" width="270" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="2. Install Syncthing on each NAS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="-70" width="270" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="3. Sync between PC B and NAS B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="300" width="275.59" height="29.9212" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="4. Sync between NAS A and NAS B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="210" width="290" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="" style="endArrow=classic;html=1;fontSize=17;" parent="1" source="34" target="20" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="340" y="-30" as="sourcePoint"/>
+                        <mxPoint x="390" y="-80" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="" style="endArrow=classic;html=1;fontSize=17;" parent="1" source="34" target="25" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="260" as="sourcePoint"/>
+                        <mxPoint x="450" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="" style="endArrow=classic;html=1;fontSize=17;" parent="1" source="36" target="26" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="690" y="290" as="sourcePoint"/>
+                        <mxPoint x="740" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" value="" style="endArrow=classic;html=1;fontSize=17;" parent="1" source="36" target="21" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="640" y="280" as="sourcePoint"/>
+                        <mxPoint x="690" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="" style="curved=1;endArrow=classic;html=1;fontSize=17;startArrow=classic;startFill=1;" parent="1" source="20" target="21" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="160" y="270" as="sourcePoint"/>
+                        <mxPoint x="210" y="220" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="120" y="280"/>
+                            <mxPoint x="210" y="260"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="" style="curved=1;endArrow=classic;html=1;fontSize=17;startArrow=classic;startFill=1;" parent="1" source="25" target="26" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="620" y="290" as="sourcePoint"/>
+                        <mxPoint x="670" y="240" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="700" y="310"/>
+                            <mxPoint x="620" y="240"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" value="3. Sync between PC A and NAS A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="300" width="275.59" height="29.9212" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="" style="curved=1;endArrow=classic;html=1;fontSize=17;startArrow=classic;startFill=1;" parent="1" source="21" target="26" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="360" as="sourcePoint"/>
+                        <mxPoint x="450" y="310" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="350" y="190"/>
+                            <mxPoint x="440" y="220"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="5. Optional Sync between PC A and NAS B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="450" width="334.645" height="29.9212" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="6. Optional Sync between PC A and PC B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="570" width="334.645" height="29.9212" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="" style="curved=1;endArrow=classic;html=1;startArrow=classic;startFill=1;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="20" target="26">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="500" y="470" as="sourcePoint"/>
+                        <mxPoint x="550" y="420" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="100" y="460"/>
+                            <mxPoint x="540" y="440"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" value="5. Optional Sync between PC B and NAS A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+                    <mxGeometry x="463.36" y="450" width="334.645" height="29.9212" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="" style="curved=1;endArrow=classic;html=1;startArrow=classic;startFill=1;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="21" target="25">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="100.59701492537317" y="160" as="sourcePoint"/>
+                        <mxPoint x="594.0983606557377" y="160" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="200" y="460"/>
+                            <mxPoint x="780" y="440"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" value="" style="curved=1;endArrow=classic;html=1;startArrow=classic;startFill=1;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="20" target="25">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="241.44927536231876" y="250" as="sourcePoint"/>
+                        <mxPoint x="771.2615384615385" y="250" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="150" y="530"/>
+                            <mxPoint x="370" y="560"/>
+                            <mxPoint x="790" y="540"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="60" value="6. Optional Sync between PC B and PC A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+                    <mxGeometry x="460.94" y="570" width="334.645" height="29.9212" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
