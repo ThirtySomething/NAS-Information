@@ -315,7 +315,22 @@ As summary you have
 
 Et voilá - this ia a distributed [NAS][info_nas]. See the image for more details. To `sync` a folder means that the folder is shared between the clients.
 
-![Distributed NAS](/Images/distributed_nas.png)
+Let's define the term `NODE` as for a local [NAS][info_nas] with a [Syncthing][app_syncthing] installation.
 
+![Distributed NAS](/assets/distributed_nas.png)
+
+#### Sample config
+
+In case you own a [Synology Inc.][nas_synology] using the [DSM 7.x][app_dsm], follow the described steps to turn it into a `NODE`:
+
+- Install the `Container Manager` package to run the Docker version of [Synology Inc.][nas_synology].
+- Important hint: The package `Web Station` is not used for a `NODE`.
+- Create a `shared folder`, e. g. `syncthing`, to store the data.
+- Connect via SSH and set permission of the folder `/volume1` to 777 and to the created share `/volume1/syncthing` to 777. If not, [Syncthing][app_syncthing] will be unable write to the share.
+- In `Container Manager` create a project, e. g. `syncthing`, upload the [compose file][data_node_ds124] and **SKIP** the support in `Web Station`.
+- The UI will be available by this URL: `http://<IP-OF-YOUR-NAS>:8384`
+
+[app_dsm]: https://en.wikipedia.org/wiki/Synology#Synology_DiskStation_Manager_(DSM)
 [app_syncthing]: https://syncthing.net/
+[data_node_ds124]: ./assets/docker-compose-ds124.yml
 [info_syncthing_fileversioning]: https://docs.syncthing.net/v1.27.7/users/versioning
