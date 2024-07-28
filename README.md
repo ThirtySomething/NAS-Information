@@ -326,6 +326,7 @@ In case you own a [Synology Inc.][nas_synology] using the [DSM 7.x][app_dsm], fo
 - Install the `Container Manager` package to run the Docker version of [Synology Inc.][nas_synology].
 - Important hint: The package `Web Station` is not used for a `NODE`.
 - Create a `shared folder`, e. g. `syncthing`, to store the data.
+- Create a folder `data` in this share.
 - Connect via SSH and set permission of the folder `/volume1` to 777 and to the created share `/volume1/syncthing` to 777. If not, [Syncthing][app_syncthing] will be unable write to the share.
 - In `Container Manager` create a project, e. g. `syncthing`, upload the [compose file][data_node_ds124] and **SKIP** the support in `Web Station`.
 - The UI will be available by this URL: `http://<IP-OF-YOUR-NAS>:8384`
