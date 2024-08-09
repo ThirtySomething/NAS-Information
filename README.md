@@ -219,7 +219,12 @@ Promising [NAS][info_nas] hardware will be listet here:
 
 The basic job of a [NAS][info_nas] is to provide storage over the network. But nowadays a [NAS][info_nas] is more like a home server and offers countless opportunities for
 
-- File synchronization with [Syncthing][app_syncthing]
+- Developer server options
+  - [NoSQL][info_nosql], e. g. [Apache Cassandra][app_cassandra] or [Apache CouchDB][app_couchdb]
+  - [RDBMS][info_rdbms], e. g. [MySQL][app_mysql] or [MariaDB][app_mariadb]
+  - [Version control system][info_vcs], e. g. [Apache Subversion][app_svn], [git][app_git], [Gitea][app_gitea] or [SCM-Manager][app_scmmanager]
+  - [Webserver][info_webserver] like [Apache Webserver][app_apache2], [Caddy][app_caddy] or [lighttp][app_lighttp]
+- File synchronization by [Syncthing][app_syncthing]
 - Network wide ad filtering by [AdGuard][app_adguard] or [Pi-hole][app_pihole]
 - Organizing images by [Photoprism][app_photoprism]
 - Smart home control by [Home Assistant][app_homeassistant]
@@ -229,14 +234,29 @@ So most of this software is avaliable for [Docker][info_docker]. There is native
 
 But there are also [OS][info_operating_system] which forces the usage of [Docker][info_docker] with less the focus on classical [NAS][info_nas] features like [CasaOS][os_casaos], [cosmos-cloud][os_cosmos] or [umbrelOS][os_umbrelos].
 
+[app_scmmanager]: https://scm-manager.org/
+[app_gitea]: https://about.gitea.com/
 [app_adguard]: https://adguard.com/en/welcome.html
+[app_apache2]: https://httpd.apache.org/
+[app_caddy]: https://caddyserver.com/
+[app_cassandra]: https://cassandra.apache.org/_/index.html
+[app_couchdb]: https://couchdb.apache.org/
 [app_emby]: https://emby.media/
 [app_homeassistant]: https://www.home-assistant.io/
 [app_jellyfin]: https://jellyfin.org/
+[app_lighttp]: https://www.lighttpd.net/
+[app_mariadb]: https://mariadb.org/
+[app_mysql]: https://www.mysql.com/
 [app_photoprism]: https://www.photoprism.app/
 [app_pihole]: https://pi-hole.net/
 [app_plex]: https://www.plex.tv/en-gb/
 [app_syncthing]: https://syncthing.net/
+[info_nosql]: https://en.wikipedia.org/wiki/NoSQL
+[info_rdbms]: https://en.wikipedia.org/wiki/Relational_database
+[info_webserver]: https://en.wikipedia.org/wiki/Web_server
+[info_vcs]: https://en.wikipedia.org/wiki/Version_control
+[app_svn]: https://subversion.apache.org/
+[app_git]: https://git-scm.com/
 
 ## External cases
 
