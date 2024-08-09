@@ -219,6 +219,7 @@ Promising [NAS][info_nas] hardware will be listet here:
 
 The basic job of a [NAS][info_nas] is to provide storage over the network. But nowadays a [NAS][info_nas] is more like a home server and offers countless opportunities for
 
+- File synchronization with [Syncthing][app_syncthing]
 - Network wide ad filtering by [AdGuard][app_adguard] or [Pi-hole][app_pihole]
 - Organizing images by [Photoprism][app_photoprism]
 - Smart home control by [Home Assistant][app_homeassistant]
@@ -235,6 +236,7 @@ But there are also [OS][info_operating_system] which forces the usage of [Docker
 [app_photoprism]: https://www.photoprism.app/
 [app_pihole]: https://pi-hole.net/
 [app_plex]: https://www.plex.tv/en-gb/
+[app_syncthing]: https://syncthing.net/
 
 ## External cases
 
@@ -332,6 +334,5 @@ In case you own a [Synology Inc.][nas_synology] using the [DSM 7.x][app_dsm], fo
 - The UI will be available by this URL: `http://<IP-OF-YOUR-NAS>:8384`
 
 [app_dsm]: https://en.wikipedia.org/wiki/Synology#Synology_DiskStation_Manager_(DSM)
-[app_syncthing]: https://syncthing.net/
 [data_node_ds124]: ./assets/docker-compose-ds124.yml
 [info_syncthing_fileversioning]: https://docs.syncthing.net/v1.27.7/users/versioning
