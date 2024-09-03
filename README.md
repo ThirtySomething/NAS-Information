@@ -185,6 +185,7 @@ Promising [NAS][info_nas] hardware will be listet here:
 - [Jonsbo][hardware_jonsbo] - PC cases for [NAS][info_nas] builds
 - [Radxa Penta SATA HAT][hardware_radxa sata hat] for [RPi][hardware_raspberry_pi]
 - [Silverstone][hardware_silverstone] - PC cases for [NAS][info_nas] and more, e. g. [5 bay cage][hardware_silverstone_cage_5] in size of three 5 1/4 default case slots or the [5 bay NAS case][hardware_silverstone_nas_case]
+- [Supermicro][hardware_supermicro_m28sacb] - Internal case for 8x 2,5" drives in two 5,25" slots
 - [Topton NAS boards][hardware_topton] - For the brave: Topton mainboards on AliExpress
 - [Waveshare "PiBox"][hardware_waveshare_pibox] - Similar case to [PiBox][nas_pibox], for two 2 1/2" disk drives and a large display
 - [Waveshare "Flashtor"][hardware_waveshare_flashtor] - Case with carrierboard for [Raspberry Pi Compute Module 4][hardware_raspberrypi_compute_module4] and two M2 NVME slots, similar to [Asustor Flashtor][hardware_asustor_flashtor]
@@ -204,15 +205,16 @@ Promising [NAS][info_nas] hardware will be listet here:
 [hardware_icydock_cage_3]: https://global.icydock.com/product_58.html
 [hardware_icydock_cage_5]: https://global.icydock.com/product_65.html
 [hardware_jonsbo]: https://www.jonsbo.com/en/product/ComputerCase/NASMotherboardSeries.html
-[hardware_raspberrypi_compute_module4]: https://www.raspberrypi.com/products/compute-module-4/?variant=raspberry-pi-cm4001000
 [hardware_radxa sata hat]: https://radxa.com/products/accessories/penta-sata-hat/
 [hardware_raspberry_pi]: https://www.raspberrypi.com/
+[hardware_raspberrypi_compute_module4]: https://www.raspberrypi.com/products/compute-module-4/?variant=raspberry-pi-cm4001000
 [hardware_silverstone]: https://www.silverstonetek.com/
 [hardware_silverstone_cage_5]: https://www.silverstonetek.com/en/product/info/storage/FS305-12G/
 [hardware_silverstone_nas_case]: https://www.silverstonetek.com/en/product/info/computer-chassis/CS351/
+[hardware_supermicro_m28sacb]: https://www.supermicro.com/de/products/accessories/mobilerack/cse-m28sacb-oem.php
 [hardware_topton]: https://www.aliexpress.com/w/wholesale-topton-nas-board.html?spm=a2g0o.home.search.0
-[hardware_waveshare_pibox]: https://www.waveshare.com/cm4-nas-double-deck-c4a.htm?sku=23880
 [hardware_waveshare_flashtor]: https://www.waveshare.com/cm4-nvme-nas-box.htm
+[hardware_waveshare_pibox]: https://www.waveshare.com/cm4-nas-double-deck-c4a.htm?sku=23880
 [hardware_wiretrustee_ex]: https://github.com/wiretrustee/cm4-sata-board
 
 ## DIY [NAS][info_nas] software
