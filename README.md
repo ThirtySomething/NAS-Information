@@ -15,6 +15,7 @@ A curated list about [NAS][info_nas] hardware and software, tips and tricks. Thi
 [info_raid_5]: https://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_5
 [info_raid_6]: https://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_6
 [info_wtf]: https://en.wikipedia.org/wiki/Fuck#Modern_usage
+[info_zima_cube_os]: https://community.zimaspace.com/t/installing-new-os-on-zimacube/3441
 [license_mit]: ./LICENSE
 
 ## [NAS][info_nas] manufacturer
@@ -38,7 +39,7 @@ These are manufacturer of [NAS][info_nas] systems and they offer their devices w
 - [Thecus - Subsidiary of Ennoconn][nas_thecus], founded in 2004
 - [Ugreen Amerika Limited][nas_ugreen], founded in 2012, first [NAS][info_nas] in 2024
 - [Western Digital Corporation][nas_western_digital], founded in 1970
-- [Zima][nas_zima], offers both, hardware for [NAS][info_nas] and public available [OS][info_operating_system] ([CasaOS][os_casaos])
+- [Zima][nas_zima], offers both, hardware for [NAS][info_nas] and public available [OS][info_operating_system] ([ZimaOS][os_zimaos])
 
 <sup>1)</sup>The fantec [NAS CL-35B2][nas_fantec_cl35b2] is outdated
 
@@ -146,6 +147,7 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 - [umbrelOS][os_umbrelos] - The no-brainer home cloud OS<sup>3)</sup>
 - [Unraid][os_unraid] (commercial), since 2005
 - [XigmaNAS][os_xigmanas], fork of FreeNAS<sup>4)</sup>, since 2012
+- [ZimaOS][os_zimaos], based on [CasaOS][os_casaos], [RAID][info_raid] is planned, since 09/2023
 
 <sup>1)</sup> The [OS][info_operating_system] does not support [RAID][info_raid], more a [Docker OS][info_docker], the `Merge Storage` option (Beta) seems to bundle the disks like [JBOD][info_jbod].
 
@@ -171,11 +173,13 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 [os_umbrelos]: https://umbrel.com/umbrelos#install
 [os_unraid]: https://unraid.net/
 [os_xigmanas]: https://xigmanas.com/xnaswp/
+[os_zimaos]: https://github.com/IceWhaleTech/ZimaOS
 
 ## DIY [NAS][info_nas] hardware
 
 Promising [NAS][info_nas] hardware will be listet here:
 
+- [AOOSTAR WTR PRO 4 Bay 90T Storage INTEL N100 Nas Mini PC][hardware_aoostar] - Base for a DIY [NAS][info_nas]
 - [Fractal Node Series][hardware_fractal_node] - PC cases for [NAS][info_nas]
 - [Geekworm Pi Cases/hats][hardware_geekworm_rpi] - various solutions for [RPi][hardware_raspberry_pi] based [NAS][info_nas]
 - [GnuBee][hardware_gnubee] - GnuBee: [NAS][info_nas] for a personal cloud
@@ -186,13 +190,15 @@ Promising [NAS][info_nas] hardware will be listet here:
 - [Radxa Penta SATA HAT][hardware_radxa sata hat] for [RPi][hardware_raspberry_pi]
 - [Silverstone][hardware_silverstone] - PC cases for [NAS][info_nas] and more, e. g. [5 bay cage][hardware_silverstone_cage_5] in size of three 5 1/4 default case slots or the [5 bay NAS case][hardware_silverstone_nas_case]
 - [Supermicro][hardware_supermicro_m28sacb] - Internal case for 8x 2,5" drives in two 5,25" slots
-- [Topton NAS boards][hardware_topton] - For the brave: Topton mainboards on AliExpress
+- [Topton NAS boards][hardware_topton] - For the brave: Topton mainboards on AliExpress, overview e. g. [here][hardware_topton_overview]
 - [Waveshare "PiBox"][hardware_waveshare_pibox] - Similar case to [PiBox][nas_pibox], for two 2 1/2" disk drives and a large display
 - [Waveshare "Flashtor"][hardware_waveshare_flashtor] - Case with carrierboard for [Raspberry Pi Compute Module 4][hardware_raspberrypi_compute_module4] and two M2 NVME slots, similar to [Asustor Flashtor][hardware_asustor_flashtor]
 - ~~[Wiretrustee][hardware_wiretrustee_ex]~~ - Project stopped, plans for hardware are public available
+- [Zima Cube][hardware_zima_cube] - interesting base for own [NAS][info_nas], seems that at least [TrueNAS Scale][os_truenas_scale] was installed, for more details see [here][info_zima_cube_os].
 
 <!-- DIY NAS hardware -->
 
+[hardware_aoostar]: https://aoostar.com/products/aoostar-n9e-intel-n100-mini-pc4c-4t-up-to-3-4ghz-with-w11-home-8-16gb-ddr4-3200mhz-ram-256-512gb-m-2-2280-nvme-ssd?variant=48813283574058
 [hardware_asustor_flashtor]: https://www.asustor.com/de/product?p_id=79
 [hardware_axzez_interceptor]: https://www.axzez.com/axzez-circuit-boards
 [hardware_fractal_node]: https://www.fractal-design.com/de/products/cases/node/
@@ -213,9 +219,11 @@ Promising [NAS][info_nas] hardware will be listet here:
 [hardware_silverstone_nas_case]: https://www.silverstonetek.com/en/product/info/computer-chassis/CS351/
 [hardware_supermicro_m28sacb]: https://www.supermicro.com/de/products/accessories/mobilerack/cse-m28sacb-oem.php
 [hardware_topton]: https://www.aliexpress.com/w/wholesale-topton-nas-board.html?spm=a2g0o.home.search.0
+[hardware_topton_overview]: https://butterwhat.com/2024/08/16/topton-diy-nas-motherboard-rundown-exclamation-mark.html
 [hardware_waveshare_flashtor]: https://www.waveshare.com/cm4-nvme-nas-box.htm
 [hardware_waveshare_pibox]: https://www.waveshare.com/cm4-nas-double-deck-c4a.htm?sku=23880
 [hardware_wiretrustee_ex]: https://github.com/wiretrustee/cm4-sata-board
+[hardware_zima_cube]: https://shop.zimaboard.com/collections/zimacube-series
 
 ## DIY [NAS][info_nas] software
 
