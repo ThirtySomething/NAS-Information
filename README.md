@@ -141,6 +141,7 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 - [libreCMC][os_librecmc] - The _libre_ Embedded GNU/Linux Distro<sup>2)</sup>, used on [GnuBee][hardware_gnubee]
 - [Openmediavault][os_omv] - The open network attached storage solution, since 2009
 - [Proxmox][os_proxmox] - A hypervisor where you can run any OS in virtual machines
+- [Rockstor][os_rockstor] - Open Source multi-arch NAS Built on OpenSUSE
 - [TrueNAS Core][os_truenas_core], based on [FreeBSD][os_freebsd] since 2005
 - [TrueNAS Scale][os_truenas_scale], based on [Debian][os_debian] since 2022
 - [Turnkey Linux Fileserver][os_turnkey_linux], since 2008
@@ -167,6 +168,7 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 [os_librecmc_repos]: https://gogs.librecmc.org/libreCMC
 [os_omv]: https://www.openmediavault.org/
 [os_proxmox]: https://www.proxmox.com/
+[os_rockstor]: https://rockstor.com/
 [os_truenas_core]: https://www.truenas.com/truenas-core/
 [os_truenas_scale]: https://www.truenas.com/download-truenas-scale/
 [os_turnkey_linux]: https://www.turnkeylinux.org/
