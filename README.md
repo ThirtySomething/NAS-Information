@@ -7,13 +7,18 @@ A curated list about [NAS][info_nas] hardware and software, tips and tricks. Thi
 [info_backup]: https://en.wikipedia.org/wiki/Backup
 [info_docker]: https://en.wikipedia.org/wiki/Docker_(software)
 [info_jbod]: https://en.wikipedia.org/wiki/Non-RAID_drive_architectures#JBOD
+[info_mqtt]: https://en.wikipedia.org/wiki/MQTT
 [info_nas]: https://en.wikipedia.org/wiki/Network-attached_storage
+[info_nosql]: https://en.wikipedia.org/wiki/NoSQL
 [info_operating_system]: https://en.wikipedia.org/wiki/Operating_system
 [info_raid]: https://en.wikipedia.org/wiki/RAID
 [info_raid_0]: https://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_0
 [info_raid_1]: https://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_1
 [info_raid_5]: https://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_5
 [info_raid_6]: https://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_6
+[info_rdbms]: https://en.wikipedia.org/wiki/Relational_database
+[info_vcs]: https://en.wikipedia.org/wiki/Version_control
+[info_webserver]: https://en.wikipedia.org/wiki/Web_server
 [info_wtf]: https://en.wikipedia.org/wiki/Fuck#Modern_usage
 [info_zima_cube_os]: https://community.zimaspace.com/t/installing-new-os-on-zimacube/3441
 [license_mit]: ./LICENSE
@@ -26,10 +31,10 @@ These are manufacturer of [NAS][info_nas] systems and they offer their devices w
 - [ASUSTOR Inc.][nas_asustor], founded in 2011
 - [Buffalo EU B.V.][nas_buffalo], first [NAS][info_nas] in 2003
 - ~~[Drobo][nas_drobo]~~ [Does not exist anymore][nas_drobo_ex], 2005-2023
-- ~~[kobol][nas_kobol]~~ [Does not exist anymore][nas_kobol_ex], 2017-2021
 - [fantec][nas_fantec]<sup>1)</sup>
 - [ioSafe][nas_iosafe]
 - [iXsystems, Inc.][nas_ixsystems], founded in 1991, offers both, hardware for [NAS][info_nas] and public available [OS][info_operating_system] ([TrueNAS][nas_ixsystems_truenas]) in variants
+- ~~[kobol][nas_kobol]~~ [Does not exist anymore][nas_kobol_ex], 2017-2021
 - [OWC Network Attached Storage][nas_owc], founded in 1988, they use [TrueNAS Scale][os_truenas_scale] on some [devices][nas_owc_jupiter_mini]
 - [PiBox][nas_pibox], founded in 2019
 - [Promise Technology Europe][nas_promise]
@@ -115,13 +120,12 @@ In case you want to build your own [NAS][info_nas], you can find several instruc
 - [Brian Moses][builder_brian_moses]
 - [Elefacts, a German site][builder_elefacts]
 - [Heise Verlag, a German site][builder_heise]
-- [Jeff Gerling][builder_jeff_gerling] - Various [RPi][hardware_raspberry_pi] based [NAS][info_nas]
+- [Jeff Gerling][builder_jeff_gerling] - Various [RPi][hw_raspberry_pi] based [NAS][info_nas]
 - [Michael Lynch][builder_michael_lynch]
-- [NASsie][builder_nassie] - a [RPi][hardware_raspberry_pi] based [NAS][info_nas] using the compute module
+- [NASsie][builder_nassie] - a [RPi][hw_raspberry_pi] based [NAS][info_nas] using the compute module
 - [Serverbuilds, a kind of NAS community][builder_server_builds]
 - [Technikaffe, a German site][builder_technikaffe]
-
-<!-- DIY NAS builds -->
+- <!-- DIY NAS builds -->
 
 [builder_brian_moses]: https://blog.briancmoses.com/categories/diy-nas/
 [builder_elefacts]: https://www.elefacts.de/kategorie-nas_hardware-1
@@ -138,7 +142,8 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 
 - [CasaOS: Your Personal Cloud OS][os_casaos]<sup>1)</sup> - Runs on top of Debian/Ubuntu/Rasperry Pi OS and others
 - [Cosmos - Escape the cloud][os_cosmos]: A [Docker][info_docker] based [OS][info_operating_system]
-- [libreCMC][os_librecmc] - The _libre_ Embedded GNU/Linux Distro<sup>2)</sup>, used on [GnuBee][hardware_gnubee]
+- [iStoreOS][os_istoreos] - An operating system for [NAS][info_nas] based on [OptenWRT][os_openwrt]
+- [libreCMC][os_librecmc] - The _libre_ Embedded GNU/Linux Distro<sup>2)</sup>, used on [GnuBee][hw_gnubee]
 - [Openmediavault][os_omv] - The open network attached storage solution, since 2009
 - [Proxmox][os_proxmox] - A hypervisor where you can run any OS in virtual machines
 - [Rockstor][os_rockstor] - Open Source multi-arch NAS Built on OpenSUSE
@@ -164,9 +169,11 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 [os_cosmos]: https://cosmos-cloud.io/
 [os_debian]: https://www.debian.org/
 [os_freebsd]: https://www.freebsd.org/
+[os_istoreos]: https://www.istoreos.com/
 [os_librecmc]: https://librecmc.org/
 [os_librecmc_repos]: https://gogs.librecmc.org/libreCMC
 [os_omv]: https://www.openmediavault.org/
+[os_openwrt]: https://openwrt.org/
 [os_proxmox]: https://www.proxmox.com/
 [os_rockstor]: https://rockstor.com/
 [os_truenas_core]: https://www.truenas.com/truenas-core/
@@ -181,64 +188,67 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 
 Promising [NAS][info_nas] hardware will be listet here:
 
-- [AOOSTAR WTR PRO 4 Bay 90T Storage INTEL N100 Nas Mini PC][hardware_aoostar] - Base for a DIY [NAS][info_nas]
-- [Chenbro SR301 Plus][hardware_chenbro_sr301plus] - Case for mini ITX boards with 4 hot swap slots for 3,5" drives
-- [Chenbro Storage Expansion Kits][hardware_chenbro_storage_expansion] - Five bay 3,5" HDD enclosure with backplane, 3 bay 3,5" drive enclosure, ...
-- [Fractal Node Series][hardware_fractal_node] - PC cases for [NAS][info_nas]
-- [Geekworm Pi Cases/hats][hardware_geekworm_rpi] - various solutions for [RPi][hardware_raspberry_pi] based [NAS][info_nas]
-- [GnuBee][hardware_gnubee] - GnuBee: [NAS][info_nas] for a personal cloud
-- [ICY Box internal storage solutions][hardware_icybox_internal_storage] - Internal cases and more, e. g. [3 bay cage][hardware_icybox_cage_3] in size of two 5 1/4, or [5 bay cage][hardware_icybox_cage_5] in size of three 5 1/4 default case slots
-- [ICY Dock][hardware_icydock] - Internal cases and more, e. g. [3 bay cage][hardware_icydock_cage_3] in size of two 5 1/4, or [5 bay cage][hardware_icydock_cage_5] in size of three 5 1/4 default case slots
-- [Interceptor Carrier Board][hardware_axzez_interceptor] for [RPi compute module][hardware_raspberrypi_cm4], supports 5 SATA drives, with M.2
-- [Jonsbo][hardware_jonsbo] - PC cases for [NAS][info_nas] builds
-- [Radxa Penta SATA HAT][hardware_radxa sata hat] for [RPi][hardware_raspberry_pi]
-- [Radxa Taco][hardware_radxa_taco] - Board for [Radxa CM3][hardware_radxa_cm3] or the [Raspberry Pi CM4][hardware_raspberrypi_cm4], up to five 2,5" or 3,5" drives
-- [Silverstone][hardware_silverstone] - PC cases for [NAS][info_nas] and more, e. g. [5 bay cage][hardware_silverstone_cage_5] in size of three 5 1/4 default case slots or the [5 bay NAS case][hardware_silverstone_nas_case]
-- [Supermicro][hardware_supermicro_m28sacb] - Internal case for 8x 2,5" drives in two 5,25" slots
-- [Topton NAS boards][hardware_topton] - For the brave: Topton mainboards on AliExpress, overview e. g. [here][hardware_topton_overview]
-- [Waveshare "PiBox"][hardware_waveshare_pibox] - Similar case to [PiBox][nas_pibox], for two 2 1/2" disk drives and a large display
-- [Waveshare "Flashtor"][hardware_waveshare_flashtor] - Case with carrierboard for [Raspberry Pi CM4][hardware_raspberrypi_cm4] and two M2 NVME slots, similar to [Asustor Flashtor][hardware_asustor_flashtor]
-- ~~[Wiretrustee][hardware_wiretrustee_ex]~~ - Project stopped, plans for hardware are public available
-- [Zima Cube][hardware_zima_cube] - interesting base for own [NAS][info_nas], seems that at least [TrueNAS Scale][os_truenas_scale] was installed, for more details see [here][info_zima_cube_os].
+- [AOOSTAR WTR PRO 4 Bay 90T Storage INTEL N100 Nas Mini PC][hw_aoostar] - Base for a DIY [NAS][info_nas]
+- [Chenbro SR301 Plus][hw_chenbro_sr301plus] - Case for mini ITX boards with 4 hot swap slots for 3,5" drives
+- [Chenbro Storage Expansion Kits][hw_chenbro_storage_expansion] - Five bay 3,5" HDD enclosure with backplane, 3 bay 3,5" drive enclosure, ...
+- [Fractal Node Series][hw_fractal_node] - PC cases for [NAS][info_nas]
+- [Geekworm Pi Cases/hats][hw_geekworm_rpi] - various solutions for [RPi][hw_raspberry_pi] based [NAS][info_nas]
+- [GnuBee][hw_gnubee] - GnuBee: [NAS][info_nas] for a personal cloud
+- [ICY Box internal storage solutions][hw_icybox_internal_storage] - Internal cases and more, e. g. [3 bay cage][hw_icybox_cage_3] in size of two 5 1/4, or [5 bay cage][hw_icybox_cage_5] in size of three 5 1/4 default case slots
+- [ICY Dock][hw_icydock] - Internal cases and more, e. g. [3 bay cage][hw_icydock_cage_3] in size of two 5 1/4, or [5 bay cage][hw_icydock_cage_5] in size of three 5 1/4 default case slots
+- [Interceptor Carrier Board][hw_axzez_interceptor] for [RPi compute module][hw_raspberrypi_cm4], supports 5 SATA drives, with M.2
+- [Jonsbo][hw_jonsbo] - PC cases for [NAS][info_nas] builds
+- [KCMconmey 8 + 1 Bay DIY NAS-Case][hw_mcmconmey]
+- [Radxa Penta SATA HAT][hw_radxa sata hat] for [RPi][hw_raspberry_pi]
+- [Radxa Taco][hw_radxa_taco] - Board for [Radxa CM3][hw_radxa_cm3] or the [Raspberry Pi CM4][hw_raspberrypi_cm4], up to five 2,5" or 3,5" drives
+- [Silverstone][hw_silverstone] - PC cases for [NAS][info_nas] and more, e. g. [5 bay cage][hw_silverstone_cage_5] in size of three 5 1/4 default case slots or the [5 bay NAS case][hw_silverstone_nas_case]
+- [Supermicro][hw_supermicro_m28sacb] - Internal case for 8x 2,5" drives in two 5,25" slots
+- [Topton NAS boards][hw_topton] - For the brave: Topton mainboards on AliExpress, overview e. g. [here][hw_topton_overview]
+- [Waveshare "Flashtor"][hw_waveshare_flashtor] - Case with carrierboard for [Raspberry Pi CM4][hw_raspberrypi_cm4] and two M2 NVME slots, similar to [Asustor Flashtor][hw_asustor_flashtor]
+- [Waveshare "PiBox"][hw_waveshare_pibox] - Similar case to [PiBox][nas_pibox], for two 2 1/2" disk drives and a large display
+- ~~[Wiretrustee][hw_wiretrustee_ex]~~ - Project stopped, plans for hardware are public available
+- [Zima Cube][hw_zima_cube] - interesting base for own [NAS][info_nas], seems that at least [TrueNAS Scale][os_truenas_scale] was installed, for more details see [here][info_zima_cube_os].
 
 <!-- DIY NAS hardware -->
 
-[hardware_aoostar]: https://aoostar.com/products/aoostar-n9e-intel-n100-mini-pc4c-4t-up-to-3-4ghz-with-w11-home-8-16gb-ddr4-3200mhz-ram-256-512gb-m-2-2280-nvme-ssd?variant=48813283574058
-[hardware_asustor_flashtor]: https://www.asustor.com/de/product?p_id=79
-[hardware_axzez_interceptor]: https://www.axzez.com/axzez-circuit-boards
-[hardware_chenbro_sr301plus]: https://www.chenbro.com/en-global/products/TowerServerChassis/Mini_ITX_Server/SR301_PLUS
-[hardware_chenbro_storage_expansion]: https://www.chenbro.com/en-global/products/Storage_Expansion_Kit
-[hardware_fractal_node]: https://www.fractal-design.com/de/products/cases/node/
-[hardware_geekworm_rpi]: https://geekworm.com/search?type=product&q=NAS
-[hardware_gnubee]: http://gnubee.org/
-[hardware_icybox_cage_3]: https://dev.icybox.de/product/interne_speicherloesungen/IB-573SSK-12G
-[hardware_icybox_cage_5]: https://dev.icybox.de/product/interne_speicherloesungen/IB-575SSK-12G
-[hardware_icybox_internal_storage]: https://dev.icybox.de/products/interne_speicherloesungen
-[hardware_icydock]: https://global.icydock.com/
-[hardware_icydock_cage_3]: https://global.icydock.com/product_58.html
-[hardware_icydock_cage_5]: https://global.icydock.com/product_65.html
-[hardware_jonsbo]: https://www.jonsbo.com/en/product/ComputerCase/NASMotherboardSeries.html
-[hardware_radxa sata hat]: https://radxa.com/products/accessories/penta-sata-hat/
-[hardware_radxa_cm3]: https://radxa.com/products/cm/cm3
-[hardware_radxa_taco]: https://radxa.com/products/io-board/taco/
-[hardware_raspberry_pi]: https://www.raspberrypi.com/
-[hardware_raspberrypi_cm4]: https://www.raspberrypi.com/products/compute-module-4/?variant=raspberry-pi-cm4001000
-[hardware_silverstone]: https://www.silverstonetek.com/
-[hardware_silverstone_cage_5]: https://www.silverstonetek.com/en/product/info/storage/FS305-12G/
-[hardware_silverstone_nas_case]: https://www.silverstonetek.com/en/product/info/computer-chassis/CS351/
-[hardware_supermicro_m28sacb]: https://www.supermicro.com/de/products/accessories/mobilerack/cse-m28sacb-oem.php
-[hardware_topton]: https://www.aliexpress.com/w/wholesale-topton-nas-board.html?spm=a2g0o.home.search.0
-[hardware_topton_overview]: https://butterwhat.com/2024/08/16/topton-diy-nas-motherboard-rundown-exclamation-mark.html
-[hardware_waveshare_flashtor]: https://www.waveshare.com/cm4-nvme-nas-box.htm
-[hardware_waveshare_pibox]: https://www.waveshare.com/cm4-nas-double-deck-c4a.htm?sku=23880
-[hardware_wiretrustee_ex]: https://github.com/wiretrustee/cm4-sata-board
-[hardware_zima_cube]: https://shop.zimaboard.com/collections/zimacube-series
+[hw_aoostar]: https://aoostar.com/products/aoostar-n9e-intel-n100-mini-pc4c-4t-up-to-3-4ghz-with-w11-home-8-16gb-ddr4-3200mhz-ram-256-512gb-m-2-2280-nvme-ssd?variant=48813283574058
+[hw_asustor_flashtor]: https://www.asustor.com/de/product?p_id=79
+[hw_axzez_interceptor]: https://www.axzez.com/axzez-circuit-boards
+[hw_chenbro_sr301plus]: https://www.chenbro.com/en-global/products/TowerServerChassis/Mini_ITX_Server/SR301_PLUS
+[hw_chenbro_storage_expansion]: https://www.chenbro.com/en-global/products/Storage_Expansion_Kit
+[hw_fractal_node]: https://www.fractal-design.com/de/products/cases/node/
+[hw_geekworm_rpi]: https://geekworm.com/search?type=product&q=NAS
+[hw_gnubee]: http://gnubee.org/
+[hw_icybox_cage_3]: https://dev.icybox.de/product/interne_speicherloesungen/IB-573SSK-12G
+[hw_icybox_cage_5]: https://dev.icybox.de/product/interne_speicherloesungen/IB-575SSK-12G
+[hw_icybox_internal_storage]: https://dev.icybox.de/products/interne_speicherloesungen
+[hw_icydock]: https://global.icydock.com/
+[hw_icydock_cage_3]: https://global.icydock.com/product_58.html
+[hw_icydock_cage_5]: https://global.icydock.com/product_65.html
+[hw_jonsbo]: https://www.jonsbo.com/en/product/ComputerCase/NASMotherboardSeries.html
+[hw_mcmconmey]: https://www.amazon.com/dp/B0D2HHY16Z
+[hw_radxa sata hat]: https://radxa.com/products/accessories/penta-sata-hat/
+[hw_radxa_cm3]: https://radxa.com/products/cm/cm3
+[hw_radxa_taco]: https://radxa.com/products/io-board/taco/
+[hw_raspberry_pi]: https://www.raspberrypi.com/
+[hw_raspberrypi_cm4]: https://www.raspberrypi.com/products/compute-module-4/?variant=raspberry-pi-cm4001000
+[hw_silverstone]: https://www.silverstonetek.com/
+[hw_silverstone_cage_5]: https://www.silverstonetek.com/en/product/info/storage/FS305-12G/
+[hw_silverstone_nas_case]: https://www.silverstonetek.com/en/product/info/computer-chassis/CS351/
+[hw_supermicro_m28sacb]: https://www.supermicro.com/de/products/accessories/mobilerack/cse-m28sacb-oem.php
+[hw_topton]: https://www.aliexpress.com/w/wholesale-topton-nas-board.html?spm=a2g0o.home.search.0
+[hw_topton_overview]: https://butterwhat.com/2024/08/16/topton-diy-nas-motherboard-rundown-exclamation-mark.html
+[hw_waveshare_flashtor]: https://www.waveshare.com/cm4-nvme-nas-box.htm
+[hw_waveshare_pibox]: https://www.waveshare.com/cm4-nas-double-deck-c4a.htm?sku=23880
+[hw_wiretrustee_ex]: https://github.com/wiretrustee/cm4-sata-board
+[hw_zima_cube]: https://shop.zimaboard.com/collections/zimacube-series
 
 ## DIY [NAS][info_nas] software
 
 The basic job of a [NAS][info_nas] is to provide storage over the network. But nowadays a [NAS][info_nas] is more like a home server and offers countless opportunities for
 
 - Developer server options
+  - [MQTT Broker][info_mqtt], e. g. [Eclipse Mosquitto][app_mosquitto]
   - [NoSQL][info_nosql], e. g. [Apache Cassandra][app_cassandra] or [Apache CouchDB][app_couchdb]
   - [RDBMS][info_rdbms], e. g. [MySQL][app_mysql] or [MariaDB][app_mariadb]
   - [Version control system][info_vcs], e. g. [Apache Subversion][app_svn], [git][app_git], [Gitea][app_gitea] or [SCM-Manager][app_scmmanager]
@@ -253,57 +263,54 @@ So most of this software is avaliable for [Docker][info_docker]. There is native
 
 But there are also [OS][info_operating_system] which forces the usage of [Docker][info_docker] with less the focus on classical [NAS][info_nas] features like [CasaOS][os_casaos], [cosmos-cloud][os_cosmos] or [umbrelOS][os_umbrelos].
 
-[app_scmmanager]: https://scm-manager.org/
-[app_gitea]: https://about.gitea.com/
 [app_adguard]: https://adguard.com/en/welcome.html
 [app_apache2]: https://httpd.apache.org/
 [app_caddy]: https://caddyserver.com/
 [app_cassandra]: https://cassandra.apache.org/_/index.html
 [app_couchdb]: https://couchdb.apache.org/
 [app_emby]: https://emby.media/
+[app_git]: https://git-scm.com/
+[app_gitea]: https://about.gitea.com/
 [app_homeassistant]: https://www.home-assistant.io/
 [app_jellyfin]: https://jellyfin.org/
 [app_lighttp]: https://www.lighttpd.net/
 [app_mariadb]: https://mariadb.org/
+[app_mosquitto]: https://mosquitto.org/
 [app_mysql]: https://www.mysql.com/
 [app_photoprism]: https://www.photoprism.app/
 [app_pihole]: https://pi-hole.net/
 [app_plex]: https://www.plex.tv/en-gb/
-[app_syncthing]: https://syncthing.net/
-[info_nosql]: https://en.wikipedia.org/wiki/NoSQL
-[info_rdbms]: https://en.wikipedia.org/wiki/Relational_database
-[info_webserver]: https://en.wikipedia.org/wiki/Web_server
-[info_vcs]: https://en.wikipedia.org/wiki/Version_control
+[app_scmmanager]: https://scm-manager.org/
 [app_svn]: https://subversion.apache.org/
-[app_git]: https://git-scm.com/
+[app_syncthing]: https://syncthing.net/
 
 ## External cases
 
 Maybe you want to use a PC in front of the storage. In this case you may regard an external [RAID][info_raid] case supporting USB or thunderbolt.
 
-- [Highpoint][hardware_highpoint]
-- [OWC External Drives][hardware_owc]
-- [Raidsonic][hardware_raidsonic]
+- [Highpoint][hw_highpoint]
+- [OWC External Drives][hw_owc]
+- [Raidsonic][hw_raidsonic]
 
 <!-- DIY NAS hardware -->
 
-[hardware_highpoint]: https://www.highpoint-tech.com/raid-storage-enclosures
-[hardware_owc]: https://www.owc.com/solutions/external-drives
-[hardware_raidsonic]: https://icybox.de/en/product-list.php?id=1
+[hw_highpoint]: https://www.highpoint-tech.com/raid-storage-enclosures
+[hw_owc]: https://www.owc.com/solutions/external-drives
+[hw_raidsonic]: https://icybox.de/en/product-list.php?id=1
 
 ## Disk drive informations
 
-- [Backblaze Hard Drive Data and Stats][info_backblaze_hdd]
-- [Buffalo: CMR vs SMR Hard Drives in Network Attached Storage (NAS)][info_buffalo_cmr_smr]
-- [NAS Compares: SMR, CMR and PMR NAS Hard Drives- A Buyers Guide 2021][info_nas_disk_drives]
-- [Shingled Magnetic Recording vs Conventional Magnetic Recording (German)][info_smr_vs_cmr]
+- [Backblaze Hard Drive Data and Stats][ddi_backblaze_hdd]
+- [Buffalo: CMR vs SMR Hard Drives in Network Attached Storage (NAS)][ddi_buffalo_cmr_smr]
+- [NAS Compares: SMR, CMR and PMR NAS Hard Drives- A Buyers Guide 2021][ddi_nas_disk_drives]
+- [Shingled Magnetic Recording vs Conventional Magnetic Recording (German)][ddi_smr_vs_cmr]
 
 <!-- Common (NAS) infos -->
 
-[info_backblaze_hdd]: https://www.backblaze.com/b2/hard-drive-test-data.html
-[info_buffalo_cmr_smr]: https://www.buffalotech.com/resources/cmr-vs-smr-hard-drives-in-network-attached-storage-nas-msp
-[info_nas_disk_drives]: https://nascompares.com/2021/04/22/smr-cmr-and-pmr-nas-hard-drives-a-buyers-guide-2021/
-[info_smr_vs_cmr]: https://www.elefacts.de/test-160-nas_festplatten_mit_smr_oder_cmr_ein_ueberblick_im_jahr_2021
+[ddi_backblaze_hdd]: https://www.backblaze.com/b2/hard-drive-test-data.html
+[ddi_buffalo_cmr_smr]: https://www.buffalotech.com/resources/cmr-vs-smr-hard-drives-in-network-attached-storage-nas-msp
+[ddi_nas_disk_drives]: https://nascompares.com/2021/04/22/smr-cmr-and-pmr-nas-hard-drives-a-buyers-guide-2021/
+[ddi_smr_vs_cmr]: https://www.elefacts.de/test-160-nas_festplatten_mit_smr_oder_cmr_ein_ueberblick_im_jahr_2021
 
 ## Configurations
 
