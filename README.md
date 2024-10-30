@@ -369,7 +369,7 @@ Let's define the term `NODE` as for a local [NAS][info_nas] with a [Syncthing][a
 
 #### Sample config
 
-In case you own a [Synology Inc.][nas_synology] using the [DSM 7.x][app_dsm], follow the described steps to turn it into a `NODE`:
+In case you own a [Synology NAS][nas_synology] using the [DSM 7.x][app_dsm], follow the described steps to turn it into a `NODE`:
 
 - Install the `Container Manager` package to run the Docker version of [Synology Inc.][nas_synology].
 - Important hint: The package `Web Station` is not used for a `NODE`.
