@@ -25,7 +25,7 @@ A curated list about [NAS][info_nas] hardware and software, tips and tricks. Thi
 
 ## [NAS][info_nas] manufacturer
 
-These are manufacturer of [NAS][info_nas] systems and they offer their devices with their own [OS][info_operating_system] installed.
+These are manufacturers of [NAS][info_nas] systems and they offer their devices with their own [OS][info_operating_system] installed.
 
 - [Amber][nas_amber]
 - [ASUSTOR Inc.][nas_asustor], founded in 2011
@@ -125,7 +125,8 @@ In case you want to build your own [NAS][info_nas], you can find several instruc
 - [NASsie][builder_nassie] - a [RPi][hw_raspberry_pi] based [NAS][info_nas] using the compute module
 - [Serverbuilds, a kind of NAS community][builder_server_builds]
 - [Technikaffe, a German site][builder_technikaffe]
-- <!-- DIY NAS builds -->
+
+<!-- DIY NAS builds -->
 
 [builder_brian_moses]: https://blog.briancmoses.com/categories/diy-nas/
 [builder_elefacts]: https://www.elefacts.de/kategorie-nas_hardware-1
