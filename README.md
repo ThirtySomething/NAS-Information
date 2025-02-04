@@ -204,6 +204,7 @@ Promising [NAS][info_nas] hardware will be listet here:
 - [Radxa Taco][hw_radxa_taco] - Board for [Radxa CM3][hw_radxa_cm3] or the [Raspberry Pi CM4][hw_raspberrypi_cm4], up to five 2,5" or 3,5" drives
 - [Silverstone][hw_silverstone] - PC cases for [NAS][info_nas] and more, e. g. [5 bay cage][hw_silverstone_cage_5] in size of three 5 1/4 default case slots or the [5 bay NAS case][hw_silverstone_nas_case]
 - [Supermicro][hw_supermicro_m28sacb] - Internal case for 8x 2,5" drives in two 5,25" slots
+- [The TerraPi][hw_terrapi] - Printable [NAS][info_nas] cases for [RPi][hw_raspberry_pi]
 - [Topton NAS boards][hw_topton] - For the brave: Topton mainboards on AliExpress, overview e. g. [here][hw_topton_overview]
 - [Waveshare "Flashtor"][hw_waveshare_flashtor] - Case with carrierboard for [Raspberry Pi CM4][hw_raspberrypi_cm4] and two M2 NVME slots, similar to [Asustor Flashtor][hw_asustor_flashtor]
 - [Waveshare "PiBox"][hw_waveshare_pibox] - Similar case to [PiBox][nas_pibox], for two 2 1/2" disk drives and a large display
@@ -237,6 +238,7 @@ Promising [NAS][info_nas] hardware will be listet here:
 [hw_silverstone_cage_5]: https://www.silverstonetek.com/en/product/info/storage/FS305-12G/
 [hw_silverstone_nas_case]: https://www.silverstonetek.com/en/product/info/computer-chassis/CS351/
 [hw_supermicro_m28sacb]: https://www.supermicro.com/de/products/accessories/mobilerack/cse-m28sacb-oem.php
+[hw_terrapi]: https://theterrapi.com/
 [hw_topton]: https://www.aliexpress.com/w/wholesale-topton-nas-board.html?spm=a2g0o.home.search.0
 [hw_topton_overview]: https://butterwhat.com/2024/08/16/topton-diy-nas-motherboard-rundown-exclamation-mark.html
 [hw_waveshare_flashtor]: https://www.waveshare.com/cm4-nvme-nas-box.htm
