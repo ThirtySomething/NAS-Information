@@ -95,9 +95,9 @@ There are some tricks available to tune a commercial [NAS][info_nas].
   - [OMV on PR4100][tweak_western_digital_pr4100_omv]
   - [RAM upgrad PR4100][tweak_western_digital_pr4100_ram]
 
-<sup>1)</sup> Most of the [TerraMaster][nas_terra_master] [NAS][info_nas] systems use an USB stick with the [OS][info_operating_system] installed. It seems to be easy to install any kind of [OS][info_operating_system] you want. Maybe the [Proxmox Virtual Environment][os_proxmox] is working?
+<sup>1)</sup> Most of the [TerraMaster][nas_terra_master] [NAS][info_nas] systems use an USB stick with the [OS][info_operating_system] installed. It seems to be easy to install any kind of [OS][info_operating_system] you want.
 
-<sup>2)</sup> It seems that at least the 4 bay model is using an internal SSD for the [OS][info_operating_system]. It seems to be easy to install any kind of [OS][info_operating_system] you want. Maybe the [Proxmox Virtual Environment][os_proxmox] is working?
+<sup>2)</sup> It seems that at least the 4 bay model is using an internal SSD for the [OS][info_operating_system]. It seems to be easy to install any kind of [OS][info_operating_system] you want.
 
 <!-- NAS tweaks -->
 
@@ -154,7 +154,7 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 - [umbrelOS][os_umbrelos] - The no-brainer home cloud OS<sup>3)</sup>
 - [Unraid][os_unraid] (commercial), since 2005
 - [XigmaNAS][os_xigmanas], fork of FreeNAS<sup>4)</sup>, since 2012
-- [ZimaOS][os_zimaos], based on [CasaOS][os_casaos], [RAID][info_raid] is planned, since 09/2023
+- [ZimaOS][os_zimaos], based on [CasaOS][os_casaos], [RAID][info_raid] is supported now
 
 <sup>1)</sup> The [OS][info_operating_system] does not support [RAID][info_raid], more a [Docker OS][info_docker], the `Merge Storage` option (Beta) seems to bundle the disks like [JBOD][info_jbod].
 
@@ -258,7 +258,7 @@ The basic job of a [NAS][info_nas] is to provide storage over the network. But n
   - [Webserver][info_webserver] like [Apache Webserver][app_apache2], [Caddy][app_caddy] or [lighttp][app_lighttp]
 - File synchronization by [Syncthing][app_syncthing]
 - Network wide ad filtering by [AdGuard][app_adguard] or [Pi-hole][app_pihole]
-- Organizing images by [Photoprism][app_photoprism]
+- Organizing images by [Photoprism][app_photoprism] or [immich][app_immich]
 - Smart home control by [Home Assistant][app_homeassistant]
 - Streaming movies and/or music by [Emby][app_emby], [Jellyfin][app_jellyfin] or [Plex][app_plex]
 
@@ -275,6 +275,7 @@ But there are also [OS][info_operating_system] which forces the usage of [Docker
 [app_git]: https://git-scm.com/
 [app_gitea]: https://about.gitea.com/
 [app_homeassistant]: https://www.home-assistant.io/
+[app_immich]: https://immich.app/
 [app_jellyfin]: https://jellyfin.org/
 [app_lighttp]: https://www.lighttpd.net/
 [app_mariadb]: https://mariadb.org/
@@ -307,12 +308,17 @@ Maybe you want to use a PC in front of the storage. In this case you may regard 
 - [Buffalo: CMR vs SMR Hard Drives in Network Attached Storage (NAS)][ddi_buffalo_cmr_smr]
 - [NAS Compares: SMR, CMR and PMR NAS Hard Drives- A Buyers Guide 2021][ddi_nas_disk_drives]
 - [Shingled Magnetic Recording vs Conventional Magnetic Recording (German)][ddi_smr_vs_cmr]
+- Get drive information on Windows using [Crystal Disk Info][ddi_crystal_disk_info], [HWiNFO][ddi_hwinfo]
+- For Seagate drives use the [Seagate Utility][ddi_seagate]
 
 <!-- Common (NAS) infos -->
 
 [ddi_backblaze_hdd]: https://www.backblaze.com/b2/hard-drive-test-data.html
 [ddi_buffalo_cmr_smr]: https://www.buffalotech.com/resources/cmr-vs-smr-hard-drives-in-network-attached-storage-nas-msp
+[ddi_crystal_disk_info]: https://crystalmark.info/en/software/crystaldiskinfo/
+[ddi_hwinfo]: https://www.hwinfo.com/about-software/
 [ddi_nas_disk_drives]: https://nascompares.com/2021/04/22/smr-cmr-and-pmr-nas-hard-drives-a-buyers-guide-2021/
+[ddi_seagate]: https://www.seagate.com/support/downloads/seatools/
 [ddi_smr_vs_cmr]: https://www.elefacts.de/test-160-nas_festplatten_mit_smr_oder_cmr_ein_ueberblick_im_jahr_2021
 
 ## Configurations
