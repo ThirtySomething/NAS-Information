@@ -17,6 +17,7 @@ A curated list about [NAS][info_nas] hardware and software, tips and tricks. Thi
 [info_raid_5]: https://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_5
 [info_raid_6]: https://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_6
 [info_rdbms]: https://en.wikipedia.org/wiki/Relational_database
+[info_sbc]: https://en.wikipedia.org/wiki/Single-board_computer
 [info_vcs]: https://en.wikipedia.org/wiki/Version_control
 [info_webserver]: https://en.wikipedia.org/wiki/Web_server
 [info_wtf]: https://en.wikipedia.org/wiki/Fuck#Modern_usage
@@ -200,6 +201,9 @@ Promising [NAS][info_nas] hardware will be listet here:
 - [Interceptor Carrier Board][hw_axzez_interceptor] for [RPi compute module][hw_raspberrypi_cm4], supports 5 SATA drives, with M.2
 - [Jonsbo][hw_jonsbo] - PC cases for [NAS][info_nas] builds
 - [KCMconmey 8 + 1 Bay DIY NAS-Case][hw_mcmconmey]
+- Pine64<sup>1)</sup>
+  - [ROCKPro64][hw_pine64_rockpro], a [SBC][info_sbc] similar to a [RPi][hw_raspberry_pi] but with gigabit ethernet and PCIe 4x
+  - [ROCKPro64 NAS Case][hw_pine64_rockpro_nas]
 - [Radxa Penta SATA HAT][hw_radxa sata hat] for [RPi][hw_raspberry_pi]
 - [Radxa Taco][hw_radxa_taco] - Board for [Radxa CM3][hw_radxa_cm3] or the [Raspberry Pi CM4][hw_raspberrypi_cm4], up to five 2,5" or 3,5" drives
 - [Silverstone][hw_silverstone] - PC cases for [NAS][info_nas] and more, e. g. [5 bay cage][hw_silverstone_cage_5] in size of three 5 1/4 default case slots or the [5 bay NAS case][hw_silverstone_nas_case]
@@ -210,6 +214,8 @@ Promising [NAS][info_nas] hardware will be listet here:
 - [Waveshare "PiBox"][hw_waveshare_pibox] - Similar case to [PiBox][nas_pibox], for two 2 1/2" disk drives and a large display
 - ~~[Wiretrustee][hw_wiretrustee_ex]~~ - Project stopped, plans for hardware are public available
 - [Zima Cube][hw_zima_cube] - interesting base for own [NAS][info_nas], seems that at least [TrueNAS Scale][os_truenas_scale] was installed, for more details see [here][info_zima_cube_os].
+
+<sup>1)</sup> Thanks to [Steve][thx_stevepalmer] for mention this
 
 <!-- DIY NAS hardware -->
 
@@ -229,6 +235,8 @@ Promising [NAS][info_nas] hardware will be listet here:
 [hw_icydock_cage_5]: https://global.icydock.com/product_65.html
 [hw_jonsbo]: https://www.jonsbo.com/en/product/ComputerCase/NASMotherboardSeries.html
 [hw_mcmconmey]: https://www.amazon.com/dp/B0D2HHY16Z
+[hw_pine64_rockpro]: https://pine64.org/devices/rockpro64/
+[hw_pine64_rockpro_nas]: https://pine64.org/documentation/ROCKPro64/Hardware/Cases/#nas-case
 [hw_radxa sata hat]: https://radxa.com/products/accessories/penta-sata-hat/
 [hw_radxa_cm3]: https://radxa.com/products/cm/cm3
 [hw_radxa_taco]: https://radxa.com/products/io-board/taco/
@@ -245,6 +253,7 @@ Promising [NAS][info_nas] hardware will be listet here:
 [hw_waveshare_pibox]: https://www.waveshare.com/cm4-nas-double-deck-c4a.htm?sku=23880
 [hw_wiretrustee_ex]: https://github.com/wiretrustee/cm4-sata-board
 [hw_zima_cube]: https://shop.zimaboard.com/collections/zimacube-series
+[thx_stevepalmer]: https://github.com/steverpalmer
 
 ## DIY [NAS][info_nas] software
 
