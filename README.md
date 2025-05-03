@@ -5,8 +5,10 @@ A curated list about [NAS][info_nas] hardware and software, tips and tricks. Thi
 <!-- Common (NAS) infos -->
 
 [info_backup]: https://en.wikipedia.org/wiki/Backup
+[info_ceph]: https://en.wikipedia.org/wiki/Ceph_(software)
 [info_docker]: https://en.wikipedia.org/wiki/Docker_(software)
 [info_jbod]: https://en.wikipedia.org/wiki/Non-RAID_drive_architectures#JBOD
+[info_miniitx]: https://en.wikipedia.org/wiki/Mini-ITX
 [info_mqtt]: https://en.wikipedia.org/wiki/MQTT
 [info_nas]: https://en.wikipedia.org/wiki/Network-attached_storage
 [info_nosql]: https://en.wikipedia.org/wiki/NoSQL
@@ -142,14 +144,19 @@ In case you want to build your own [NAS][info_nas], you can find several instruc
 
 For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some potential ones:
 
+- [AMAHI][os_amahi] - Powerful, Simple Homer Server
 - [CasaOS: Your Personal Cloud OS][os_casaos]<sup>1)</sup> - Runs on top of Debian/Ubuntu/Rasperry Pi OS and others
 - [Cosmos - Escape the cloud][os_cosmos]: A [Docker][info_docker] based [OS][info_operating_system]
+- [ESOS][os_esos] - Enterprise Storage OS
 - [iStoreOS][os_istoreos] - An operating system for [NAS][info_nas] based on [OptenWRT][os_openwrt]
 - [libreCMC][os_librecmc] - The _libre_ Embedded GNU/Linux Distro<sup>2)</sup>, used on [GnuBee][hw_gnubee]
+- [OpenDedup][os_opendedup] - Cloud Storage Gateway and Filesystem
+- [Openfiler][os_openfiler] - Unified Storage
 - [Openmediavault][os_omv] - The open network attached storage solution, since 2009
+- [PetaSAN][os_petasan] - Uses [CEPH][info_ceph] storage engine
 - [Proxmox][os_proxmox] - A hypervisor where you can run any OS in virtual machines
 - [Rockstor][os_rockstor] - Open Source multi-arch NAS Built on OpenSUSE
-- [TrueNAS Core][os_truenas_core], based on [FreeBSD][os_freebsd] since 2005
+- [TrueNAS Core][os_truenas_core], based on [FreeBSD][os_freebsd] from 2005-2025
 - [TrueNAS Scale][os_truenas_scale], based on [Debian][os_debian] since 2022
 - [Turnkey Linux Fileserver][os_turnkey_linux], since 2008
 - [umbrelOS][os_umbrelos] - The no-brainer home cloud OS<sup>3)</sup>
@@ -167,15 +174,20 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 
 <!-- NAS operating systems -->
 
+[os_amahi]: https://www.amahi.org/
 [os_casaos]: https://casaos.io/
 [os_cosmos]: https://cosmos-cloud.io/
 [os_debian]: https://www.debian.org/
+[os_esos]: https://www.esos-project.com/
 [os_freebsd]: https://www.freebsd.org/
 [os_istoreos]: https://www.istoreos.com/
 [os_librecmc]: https://librecmc.org/
 [os_librecmc_repos]: https://gogs.librecmc.org/libreCMC
 [os_omv]: https://www.openmediavault.org/
+[os_opendedup]: https://opendedup.org/odd/
+[os_openfiler]: https://www.openfiler.com/
 [os_openwrt]: https://openwrt.org/
+[os_petasan]: https://www.petasan.org/
 [os_proxmox]: https://www.proxmox.com/
 [os_rockstor]: https://rockstor.com/
 [os_truenas_core]: https://www.truenas.com/truenas-core/
@@ -191,7 +203,7 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 Promising [NAS][info_nas] hardware will be listet here:
 
 - [AOOSTAR WTR PRO 4 Bay 90T Storage INTEL N100 Nas Mini PC][hw_aoostar] - Base for a DIY [NAS][info_nas]
-- [Chenbro SR301 Plus][hw_chenbro_sr301plus] - Case for mini ITX boards with 4 hot swap slots for 3,5" drives
+- [Chenbro SR301 Plus][hw_chenbro_sr301plus] - Case for [mini ITX boards][info_miniitx] with 4 hot swap slots for 3,5" drives
 - [Chenbro Storage Expansion Kits][hw_chenbro_storage_expansion] - Five bay 3,5" HDD enclosure with backplane, 3 bay 3,5" drive enclosure, ...
 - [Fractal Node Series][hw_fractal_node] - PC cases for [NAS][info_nas]
 - [Geekworm Pi Cases/hats][hw_geekworm_rpi] - various solutions for [RPi][hw_raspberry_pi] based [NAS][info_nas]
@@ -199,8 +211,10 @@ Promising [NAS][info_nas] hardware will be listet here:
 - [ICY Box internal storage solutions][hw_icybox_internal_storage] - Internal cases and more, e. g. [3 bay cage][hw_icybox_cage_3] in size of two 5 1/4, or [5 bay cage][hw_icybox_cage_5] in size of three 5 1/4 default case slots
 - [ICY Dock][hw_icydock] - Internal cases and more, e. g. [3 bay cage][hw_icydock_cage_3] in size of two 5 1/4, or [5 bay cage][hw_icydock_cage_5] in size of three 5 1/4 default case slots
 - [Interceptor Carrier Board][hw_axzez_interceptor] for [RPi compute module][hw_raspberrypi_cm4], supports 5 SATA drives, with M.2
+- [Intertech NAS cases][hw_intertech] - various [NAS][info_nas] cases with [two][hw_intertech_bay2], four ([case][hw_intertech_bay4_mod1] or [case][hw_intertech_bay4_mod2]) or [eight][hw_intertech_bay8] bays
 - [Jonsbo][hw_jonsbo] - PC cases for [NAS][info_nas] builds
 - [KCMconmey 8 + 1 Bay DIY NAS-Case][hw_mcmconmey]
+- [PeeliCeeli][hw_peeliceeli] - various [mini ITX boards][info_miniitx] for [NAS][info_nas] as well as barebones for at least NVME based [NAS][info_nas] systems
 - Pine64<sup>1)</sup>
   - [ROCKPro64][hw_pine64_rockpro], a [SBC][info_sbc] similar to a [RPi][hw_raspberry_pi] but with gigabit ethernet and PCIe 4x
   - [ROCKPro64 NAS Case][hw_pine64_rockpro_nas]
@@ -233,8 +247,14 @@ Promising [NAS][info_nas] hardware will be listet here:
 [hw_icydock]: https://global.icydock.com/
 [hw_icydock_cage_3]: https://global.icydock.com/product_58.html
 [hw_icydock_cage_5]: https://global.icydock.com/product_65.html
+[hw_intertech]: https://www.inter-tech.de/nas-gehaeuse.html
+[hw_intertech_bay2]: https://www.inter-tech.de/3336/SC-2100.html
+[hw_intertech_bay4_mod1]: https://www.inter-tech.de/3336/SC-4100.html
+[hw_intertech_bay4_mod2]: https://www.inter-tech.de/3336/SC-4004.html
+[hw_intertech_bay8]: https://www.inter-tech.de/3336/NAS-8.html
 [hw_jonsbo]: https://www.jonsbo.com/en/product/ComputerCase/NASMotherboardSeries.html
 [hw_mcmconmey]: https://www.amazon.com/dp/B0D2HHY16Z
+[hw_peeliceeli]: https://peeliceeli.com/collections/nas-1
 [hw_pine64_rockpro]: https://pine64.org/devices/rockpro64/
 [hw_pine64_rockpro_nas]: https://pine64.org/documentation/ROCKPro64/Hardware/Cases/#nas-case
 [hw_radxa sata hat]: https://radxa.com/products/accessories/penta-sata-hat/
