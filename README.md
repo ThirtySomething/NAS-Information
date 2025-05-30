@@ -163,6 +163,7 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 - [Unraid][os_unraid] (commercial), since 2005
 - [XigmaNAS][os_xigmanas], fork of FreeNAS<sup>4)</sup>, since 2012
 - [ZimaOS][os_zimaos], based on [CasaOS][os_casaos], [RAID][info_raid] is supported now
+- [zVault][os_zvault], fork of last public version of [TrueNAS Core][os_truenas_core], since 02/2025
 
 <sup>1)</sup> The [OS][info_operating_system] does not support [RAID][info_raid], more a [Docker OS][info_docker], the `Merge Storage` option (Beta) seems to bundle the disks like [JBOD][info_jbod].
 
@@ -197,6 +198,7 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 [os_unraid]: https://unraid.net/
 [os_xigmanas]: https://xigmanas.com/xnaswp/
 [os_zimaos]: https://github.com/IceWhaleTech/ZimaOS
+[os_zvault]: https://www.zvault.io/
 
 ## DIY [NAS][info_nas] hardware
 
