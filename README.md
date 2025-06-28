@@ -205,6 +205,7 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 Promising [NAS][info_nas] hardware will be listet here:
 
 - [AOOSTAR WTR PRO 4 Bay 90T Storage INTEL N100 Nas Mini PC][hw_aoostar] - Base for a DIY [NAS][info_nas]
+- [Beelink ME mini][hw_beelink_me_mini] - Nice barebone for M2 based NAS, 6 slots, Intel N150 CPU
 - [Chenbro SR301 Plus][hw_chenbro_sr301plus] - Case for [mini ITX boards][info_miniitx] with 4 hot swap slots for 3,5" drives
 - [Chenbro Storage Expansion Kits][hw_chenbro_storage_expansion] - Five bay 3,5" HDD enclosure with backplane, 3 bay 3,5" drive enclosure, ...
 - [Fractal Node Series][hw_fractal_node] - PC cases for [NAS][info_nas]
@@ -216,6 +217,8 @@ Promising [NAS][info_nas] hardware will be listet here:
 - [Intertech NAS cases][hw_intertech] - various [NAS][info_nas] cases with [two][hw_intertech_bay2], four ([case][hw_intertech_bay4_mod1] or [case][hw_intertech_bay4_mod2]) or [eight][hw_intertech_bay8] bays
 - [Jonsbo][hw_jonsbo] - PC cases for [NAS][info_nas] builds
 - [KCMconmey 8 + 1 Bay DIY NAS-Case][hw_mcmconmey]
+- [Minis Forum N5 Pro][hw_minisforum_n5_pro] - Flagship AI Performance, Enterprise-Level Data Safety
+- [Nouvolo Qnasmini V2][hw_nouvolo_qnasmini_v2] - DIY NAS for up to 6 2,5" disk drives, STL files for case are public available
 - [PeeliCeeli][hw_peeliceeli] - various [mini ITX boards][info_miniitx] for [NAS][info_nas] as well as barebones for at least NVME based [NAS][info_nas] systems
 - Pine64<sup>1)</sup>
   - [ROCKPro64][hw_pine64_rockpro], a [SBC][info_sbc] similar to a [RPi][hw_raspberry_pi] but with gigabit ethernet and PCIe 4x
@@ -238,6 +241,7 @@ Promising [NAS][info_nas] hardware will be listet here:
 [hw_aoostar]: https://aoostar.com/products/aoostar-n9e-intel-n100-mini-pc4c-4t-up-to-3-4ghz-with-w11-home-8-16gb-ddr4-3200mhz-ram-256-512gb-m-2-2280-nvme-ssd?variant=48813283574058
 [hw_asustor_flashtor]: https://www.asustor.com/de/product?p_id=79
 [hw_axzez_interceptor]: https://www.axzez.com/axzez-circuit-boards
+[hw_beelink_me_mini]: https://www.bee-link.com/products/beelink-me-mini-n150
 [hw_chenbro_sr301plus]: https://www.chenbro.com/en-global/products/TowerServerChassis/Mini_ITX_Server/SR301_PLUS
 [hw_chenbro_storage_expansion]: https://www.chenbro.com/en-global/products/Storage_Expansion_Kit
 [hw_fractal_node]: https://www.fractal-design.com/de/products/cases/node/
@@ -256,6 +260,8 @@ Promising [NAS][info_nas] hardware will be listet here:
 [hw_intertech_bay8]: https://www.inter-tech.de/3336/NAS-8.html
 [hw_jonsbo]: https://www.jonsbo.com/en/product/ComputerCase/NASMotherboardSeries.html
 [hw_mcmconmey]: https://www.amazon.com/dp/B0D2HHY16Z
+[hw_minisforum_n5_pro]: https://www.minisforum.com/pages/n5_pro
+[hw_nouvolo_qnasmini_v2]: https://www.nouvolo.com/products/qnasmini-home-nas-server
 [hw_peeliceeli]: https://peeliceeli.com/collections/nas-1
 [hw_pine64_rockpro]: https://pine64.org/devices/rockpro64/
 [hw_pine64_rockpro_nas]: https://pine64.org/documentation/ROCKPro64/Hardware/Cases/#nas-case
