@@ -406,6 +406,7 @@ As summary you have
 - Have a [backup][info_backup] of your data
   - On your [NAS][info_nas]
   - On the second parties [NAS][info_nas]
+  - Various versions of your data caused by the versioning mechanism of [Syncthing][app_syncthing].
 
 Et voilá - this ia a distributed [NAS][info_nas]. See the image for more details. To `sync` a folder means that the folder is shared between the clients.
 
@@ -424,6 +425,8 @@ In case you own a [Synology NAS][nas_synology] using the [DSM 7.x][app_dsm], fol
 - Connect via SSH and set permission of the folder `/volume1` to 777 and to the created share `/volume1/syncthing` to 777. If not, [Syncthing][app_syncthing] will be unable write to the share.
 - In `Container Manager` create a project, e. g. `syncthing`, upload the [compose file][data_node_ds124] and **SKIP** the support in `Web Station`.
 - The UI will be available by this URL: `http://<IP-OF-YOUR-NAS>:8384`
+- Ensure that the container is set to automatic start. Otherwise the container will be not available after reboot.
+- Ensure that the container is limited at least in memory, otherwise it could be possible that the container will be killed by the [DSM 7.x][app_dsm].
 
 [app_dsm]: https://en.wikipedia.org/wiki/Synology#Synology_DiskStation_Manager_(DSM)
 [data_node_ds124]: ./assets/docker-compose-ds124.yml
