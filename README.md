@@ -124,6 +124,7 @@ In case you want to build your own [NAS][info_nas], you can find several instruc
 - [Elefacts, a German site][builder_elefacts]
 - [Heise Verlag, a German site][builder_heise]
 - [Jeff Gerling][builder_jeff_gerling] - Various [RPi][hw_raspberry_pi] based [NAS][info_nas]
+- [Michael Klements][builder_michael_klements] - [RPi 5][hw_raspberry_pi] based [NAS][info_nas] using [Radxa Penta SATA HAT][hw_radxa sata hat] and 3D printed case
 - [Michael Lynch][builder_michael_lynch]
 - [NASsie][builder_nassie] - a [RPi][hw_raspberry_pi] based [NAS][info_nas] using the compute module
 - [Serverbuilds, a kind of NAS community][builder_server_builds]
@@ -135,6 +136,7 @@ In case you want to build your own [NAS][info_nas], you can find several instruc
 [builder_elefacts]: https://www.elefacts.de/kategorie-nas_hardware-1
 [builder_heise]: https://www.heise.de/preisvergleich/?cat=WL-1682454&hocid=ct
 [builder_jeff_gerling]: https://www.jeffgeerling.com/
+[builder_michael_klements]: https://www.youtube.com/watch?v=8CmYghBYT0o
 [builder_michael_lynch]: https://mtlynch.io/building-a-vm-homelab/
 [builder_nassie]: https://github.com/CyberLeader3000/NASsie
 [builder_server_builds]: https://www.serverbuilds.net/
@@ -158,6 +160,7 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 - [Rockstor][os_rockstor] - Open Source multi-arch NAS Built on OpenSUSE
 - [TrueNAS Core][os_truenas_core], based on [FreeBSD][os_freebsd] from 2005-2025
 - [TrueNAS Scale][os_truenas_scale], based on [Debian][os_debian] since 2022
+  - [TrueNAS Scale setup guide 2025][os_truenas_scale_setup] - Youtube movie by [Focus Drift][person_focus_drift]
 - [Turnkey Linux Fileserver][os_turnkey_linux], since 2008
 - [umbrelOS][os_umbrelos] - The no-brainer home cloud OS<sup>3)</sup>
 - [Unraid][os_unraid] (commercial), since 2005
@@ -193,12 +196,14 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 [os_rockstor]: https://rockstor.com/
 [os_truenas_core]: https://www.truenas.com/truenas-core/
 [os_truenas_scale]: https://www.truenas.com/download-truenas-scale/
+[os_truenas_scale_setup]: https://www.youtube.com/watch?v=HV52Rs0lWsw
 [os_turnkey_linux]: https://www.turnkeylinux.org/
 [os_umbrelos]: https://umbrel.com/umbrelos#install
 [os_unraid]: https://unraid.net/
 [os_xigmanas]: https://xigmanas.com/xnaswp/
 [os_zimaos]: https://github.com/IceWhaleTech/ZimaOS
 [os_zvault]: https://www.zvault.io/
+[person_focus_drift]: https://www.youtube.com/@FDSatya55
 
 ## DIY [NAS][info_nas] hardware
 
