@@ -38,10 +38,12 @@ These are manufacturers of [NAS][info_nas] systems and they offer their devices 
 - [ioSafe][nas_iosafe]
 - [iXsystems, Inc.][nas_ixsystems], founded in 1991, offers both, hardware for [NAS][info_nas] and public available [OS][info_operating_system] ([TrueNAS][nas_ixsystems_truenas]) in variants
 - ~~[kobol][nas_kobol]~~ [Does not exist anymore][nas_kobol_ex], 2017-2021
+- [LincPlus][nas_lincplus] - offers tablets and [NAS][info_nas] systems
 - [OWC Network Attached Storage][nas_owc], founded in 1988, they use [TrueNAS Scale][os_truenas_scale] on some [devices][nas_owc_jupiter_mini]
 - [PiBox][nas_pibox], founded in 2019
 - [Promise Technology Europe][nas_promise]
 - [QNAP Systems, Inc.][nas_qnap], founded in 2004
+- [R_Volution][nas_rvolution] - mainly manufacturer of mediaplayers, offers also [NAS][info_nas] systems
 - [Synology Inc.][nas_synology], founded in 2000
 - [TerraMaster Technology Co., Ltd.][nas_terra_master], founded in 2010
 - [Thecus - Subsidiary of Ennoconn][nas_thecus], founded in 2004
@@ -65,11 +67,13 @@ These are manufacturers of [NAS][info_nas] systems and they offer their devices 
 [nas_ixsystems_truenas]: https://en.wikipedia.org/wiki/TrueNAS
 [nas_kobol]: https://kobol.io/
 [nas_kobol_ex]: https://blog.kobol.io/2021/08/25/we-are-pulling-the-plug/
+[nas_lincplus]: https://lincplus.de/
 [nas_owc]: https://www.owc.com/
 [nas_owc_jupiter_mini]: https://www.owc.com/solutions/jupiter-mini
 [nas_pibox]: https://pibox.io/
 [nas_promise]: https://www.promise.com/
 [nas_qnap]: https://www.qnap.com/
+[nas_rvolution]: https://www.rvolution.com/
 [nas_synology]: https://www.synology.com/
 [nas_terra_master]: https://www.terra-master.com/
 [nas_thecus]: https://www.thecus.com/
