@@ -127,6 +127,7 @@ In case you want to build your own [NAS][info_nas], you can find several instruc
 - [Brian Moses][builder_brian_moses]
 - [Elefacts, a German site][builder_elefacts]
 - [Heise Verlag, a German site][builder_heise]
+- [Jack Harvest][builder_jack_harvest] created an alternative to the [Minis Forum N5 Pro][hw_minisforum_n5_pro] with a 3D printed case.
 - [Jeff Gerling][builder_jeff_gerling] - Various [RPi][hw_raspberry_pi] based [NAS][info_nas]
 - [Michael Klements][builder_michael_klements] - [RPi 5][hw_raspberry_pi] based [NAS][info_nas] using [Radxa Penta SATA HAT][hw_radxa sata hat] and 3D printed case
 - [Michael Lynch][builder_michael_lynch]
@@ -139,6 +140,7 @@ In case you want to build your own [NAS][info_nas], you can find several instruc
 [builder_brian_moses]: https://blog.briancmoses.com/categories/diy-nas/
 [builder_elefacts]: https://www.elefacts.de/kategorie-nas_hardware-1
 [builder_heise]: https://www.heise.de/preisvergleich/?cat=WL-1682454&hocid=ct
+[builder_jack_harvest]: https://jackharvest.com/index.php/2025/07/27/build-your-own-minisforum-n5-inspired-mini-nas-a-comprehensive-guide/
 [builder_jeff_gerling]: https://www.jeffgeerling.com/
 [builder_michael_klements]: https://www.youtube.com/watch?v=8CmYghBYT0o
 [builder_michael_lynch]: https://mtlynch.io/building-a-vm-homelab/
