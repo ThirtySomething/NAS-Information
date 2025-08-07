@@ -142,7 +142,7 @@ In case you want to build your own [NAS][info_nas], you can find several instruc
 [builder_heise]: https://www.heise.de/preisvergleich/?cat=WL-1682454&hocid=ct
 [builder_jack_harvest]: https://jackharvest.com/index.php/2025/07/27/build-your-own-minisforum-n5-inspired-mini-nas-a-comprehensive-guide/
 [builder_jeff_gerling]: https://www.jeffgeerling.com/
-[builder_michael_klements]: https://www.youtube.com/watch?v=8CmYghBYT0o
+[builder_michael_klements]: https://www.the-diy-life.com/building-a-4-bay-3-5-nas-with-a-raspberry-pi-5-and-3d-printed-enclosure/
 [builder_michael_lynch]: https://mtlynch.io/building-a-vm-homelab/
 [builder_nassie]: https://github.com/CyberLeader3000/NASsie
 [builder_server_builds]: https://www.serverbuilds.net/
