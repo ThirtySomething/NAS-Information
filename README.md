@@ -39,6 +39,7 @@ These are manufacturers of [NAS][info_nas] systems and they offer their devices 
 - [iXsystems, Inc.][nas_ixsystems], founded in 1991, offers both, hardware for [NAS][info_nas] and public available [OS][info_operating_system] ([TrueNAS][nas_ixsystems_truenas]) in variants
 - ~~[kobol][nas_kobol]~~ [Does not exist anymore][nas_kobol_ex], 2017-2021
 - [LincPlus][nas_lincplus] - offers tablets and [NAS][info_nas] systems
+- [ORICO][nas_orico] - founded 2009, offers meanwhile also [NAS][info_nas] cases
 - [OWC Network Attached Storage][nas_owc], founded in 1988, they use [TrueNAS Scale][os_truenas_scale] on some [devices][nas_owc_jupiter_mini]
 - [PiBox][nas_pibox], founded in 2019
 - [Promise Technology Europe][nas_promise]
@@ -49,6 +50,7 @@ These are manufacturers of [NAS][info_nas] systems and they offer their devices 
 - [Thecus - Subsidiary of Ennoconn][nas_thecus], founded in 2004
 - [Ugreen Amerika Limited][nas_ugreen], founded in 2012, first [NAS][info_nas] in 2024
 - [Western Digital Corporation][nas_western_digital], founded in 1970
+- [Zettlab][nas_zettlab] - Startup with own OS, hardware and AI power
 - [Zima][nas_zima], offers both, hardware for [NAS][info_nas] and public available [OS][info_operating_system] ([ZimaOS][os_zimaos])
 
 <sup>1)</sup>The fantec [NAS CL-35B2][nas_fantec_cl35b2] is outdated
@@ -68,6 +70,7 @@ These are manufacturers of [NAS][info_nas] systems and they offer their devices 
 [nas_kobol]: https://kobol.io/
 [nas_kobol_ex]: https://blog.kobol.io/2021/08/25/we-are-pulling-the-plug/
 [nas_lincplus]: https://lincplus.de/
+[nas_orico]: https://oricotechs.com/pages/orico-cyberdata-nas
 [nas_owc]: https://www.owc.com/
 [nas_owc_jupiter_mini]: https://www.owc.com/solutions/jupiter-mini
 [nas_pibox]: https://pibox.io/
@@ -79,6 +82,7 @@ These are manufacturers of [NAS][info_nas] systems and they offer their devices 
 [nas_thecus]: https://www.thecus.com/
 [nas_ugreen]: https://nas.ugreen.com/
 [nas_western_digital]: https://www.westerndigital.com/
+[nas_zettlab]: https://zettlab.com/
 [nas_zima]: https://www.zimaspace.com/
 
 ## Tune a commercial [NAS][info_nas]
