@@ -41,7 +41,7 @@ These are manufacturers of [NAS][info_nas] systems and they offer their devices 
 - [LincPlus][nas_lincplus] - offers tablets and [NAS][info_nas] systems
 - [ORICO][nas_orico] - founded 2009, offers meanwhile also [NAS][info_nas] cases
 - [OWC Network Attached Storage][nas_owc], founded in 1988, they use [TrueNAS Scale][os_truenas_scale] on some [devices][nas_owc_jupiter_mini]
-- [PiBox][nas_pibox], founded in 2019
+- ~~[PiBox][nas_pibox]~~, [Does not exist anymore][nas_kubesail], 2019-2024<sup>2)</sup>
 - [Promise Technology Europe][nas_promise]
 - [QNAP Systems, Inc.][nas_qnap], founded in 2004
 - [R_Volution][nas_rvolution] - mainly manufacturer of mediaplayers, offers also [NAS][info_nas] systems
@@ -54,6 +54,7 @@ These are manufacturers of [NAS][info_nas] systems and they offer their devices 
 - [Zima][nas_zima], offers both, hardware for [NAS][info_nas] and public available [OS][info_operating_system] ([ZimaOS][os_zimaos])
 
 <sup>1)</sup>The fantec [NAS CL-35B2][nas_fantec_cl35b2] is outdated
+<sup>2)</sup>Found the announcement of shutdown only on GitHub, the website is no longer available.
 
 <!-- NAS Manufacturers -->
 
@@ -69,6 +70,8 @@ These are manufacturers of [NAS][info_nas] systems and they offer their devices 
 [nas_ixsystems_truenas]: https://en.wikipedia.org/wiki/TrueNAS
 [nas_kobol]: https://kobol.io/
 [nas_kobol_ex]: https://blog.kobol.io/2021/08/25/we-are-pulling-the-plug/
+
+[nas_kubesail]: https://github.com/kubesail/farewell-page/blob/main/index.html]
 [nas_lincplus]: https://lincplus.de/
 [nas_orico]: https://oricotechs.com/pages/orico-cyberdata-nas
 [nas_owc]: https://www.owc.com/
