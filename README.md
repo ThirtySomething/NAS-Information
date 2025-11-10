@@ -54,6 +54,7 @@ These are manufacturers of [NAS][info_nas] systems and they offer their devices 
 - [Zima][nas_zima], offers both, hardware for [NAS][info_nas] and public available [OS][info_operating_system] ([ZimaOS][os_zimaos])
 
 <sup>1)</sup>The fantec [NAS CL-35B2][nas_fantec_cl35b2] is outdated
+
 <sup>2)</sup>Found the announcement of shutdown only on GitHub, the website is no longer available.
 
 <!-- NAS Manufacturers -->
