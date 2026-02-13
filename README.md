@@ -164,6 +164,7 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 - [CasaOS: Your Personal Cloud OS][os_casaos]<sup>1)</sup> - Runs on top of Debian/Ubuntu/Rasperry Pi OS and others
 - [Cosmos - Escape the cloud][os_cosmos]: A [Docker][info_docker] based [OS][info_operating_system]
 - [ESOS][os_esos] - Enterprise Storage OS
+- [fnOS][os_fnos] - New [NAS][info_nas] OS from China, see test [here][os_fnos_test]
 - [iStoreOS][os_istoreos] - An operating system for [NAS][info_nas] based on [OptenWRT][os_openwrt]
 - [libreCMC][os_librecmc] - The _libre_ Embedded GNU/Linux Distro<sup>2)</sup>, used on [GnuBee][hw_gnubee]
 - [OpenDedup][os_opendedup] - Cloud Storage Gateway and Filesystem
@@ -197,6 +198,8 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 [os_cosmos]: https://cosmos-cloud.io/
 [os_debian]: https://www.debian.org/
 [os_esos]: https://www.esos-project.com/
+[os_fnos]: https://www.fnnas.com/
+[os_fnos_test]: https://nascompares.com/review/fnos-beta-review-i-tried-out-a-closed-source-chinese-nas-os-so-you-dont-have-to-feiniu-nas-os/
 [os_freebsd]: https://www.freebsd.org/
 [os_istoreos]: https://www.istoreos.com/
 [os_librecmc]: https://librecmc.org/
@@ -225,6 +228,7 @@ Promising [NAS][info_nas] hardware will be listet here:
 
 - [AOOSTAR WTR PRO 4 Bay 90T Storage INTEL N100 Nas Mini PC][hw_aoostar] - Base for a DIY [NAS][info_nas]
 - [Beelink ME mini][hw_beelink_me_mini] - Nice barebone for M2 based NAS, 6 slots, Intel N150 CPU
+- [Beelink ME Pro 2-Bay Hybrid NAS][hw_beelink_me_pro] - Interesting hardware base for own [NAS][info_nas], two SATA drives and three M2 SSDs
 - [Chenbro SR301 Plus][hw_chenbro_sr301plus] - Case for [mini ITX boards][info_miniitx] with 4 hot swap slots for 3,5" drives
 - [Chenbro Storage Expansion Kits][hw_chenbro_storage_expansion] - Five bay 3,5" HDD enclosure with backplane, 3 bay 3,5" drive enclosure, ...
 - [Fractal Node Series][hw_fractal_node] - PC cases for [NAS][info_nas]
@@ -261,6 +265,7 @@ Promising [NAS][info_nas] hardware will be listet here:
 [hw_asustor_flashtor]: https://www.asustor.com/de/product?p_id=79
 [hw_axzez_interceptor]: https://www.axzez.com/axzez-circuit-boards
 [hw_beelink_me_mini]: https://www.bee-link.com/products/beelink-me-mini-n150
+[hw_beelink_me_pro]: https://www.bee-link.com/de/products/beelink-me-pro
 [hw_chenbro_sr301plus]: https://www.chenbro.com/en-global/products/TowerServerChassis/Mini_ITX_Server/SR301_PLUS
 [hw_chenbro_storage_expansion]: https://www.chenbro.com/en-global/products/Storage_Expansion_Kit
 [hw_fractal_node]: https://www.fractal-design.com/de/products/cases/node/
