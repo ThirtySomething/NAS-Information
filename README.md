@@ -51,11 +51,15 @@ These are manufacturers of [NAS][info_nas] systems and they offer their devices 
 - [Ugreen Amerika Limited][nas_ugreen], founded in 2012, first [NAS][info_nas] in 2024
 - [Western Digital Corporation][nas_western_digital], founded in 1970
 - [Zettlab][nas_zettlab] - Startup with own OS, hardware and AI power
-- [Zima][nas_zima], offers both, hardware for [NAS][info_nas] and public available [OS][info_operating_system] ([ZimaOS][os_zimaos])
+- [Zima][nas_zima], offers both, hardware for [NAS][info_nas] and public available [OS][info_operating_system] ([ZimaOS][os_zimaos])<sup>3)</sup>
 
 <sup>1)</sup>The fantec [NAS CL-35B2][nas_fantec_cl35b2] is outdated
 
 <sup>2)</sup>Found the announcement of shutdown only on GitHub, the website is no longer available.
+
+<sup>3)</sup>The company behind [CasaOS][os_casaos] and [ZimaOS][os_zimaos] is [IceWhale Technology Ltd.][company_icewhale], a Shanghai based chinese company.
+
+[company_icewhale]: https://www.crowdsupply.com/icewhale-technology
 
 <!-- NAS Manufacturers -->
 
@@ -161,7 +165,7 @@ In case you want to build your own [NAS][info_nas], you can find several instruc
 For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some potential ones:
 
 - [AMAHI][os_amahi] - Powerful, Simple Homer Server
-- [CasaOS: Your Personal Cloud OS][os_casaos]<sup>1)</sup> - Runs on top of Debian/Ubuntu/Rasperry Pi OS and others
+- ~~[CasaOS: Your Personal Cloud OS][os_casaos]<sup>1)</sup> - Runs on top of Debian/Ubuntu/Rasperry Pi OS and others~~ Development in favor of [ZimaOS][os_zimaos] stopped.
 - [Cosmos - Escape the cloud][os_cosmos]: A [Docker][info_docker] based [OS][info_operating_system]
 - [ESOS][os_esos] - Enterprise Storage OS
 - [fnOS][os_fnos] - New [NAS][info_nas] OS from China, see test [here][os_fnos_test]
@@ -180,7 +184,7 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 - [umbrelOS][os_umbrelos] - The no-brainer home cloud OS<sup>3)</sup>
 - [Unraid][os_unraid] (commercial), since 2005
 - [XigmaNAS][os_xigmanas], fork of FreeNAS<sup>4)</sup>, since 2012
-- [ZimaOS][os_zimaos], based on [CasaOS][os_casaos], [RAID][info_raid] is supported now
+- [ZimaOS][os_zimaos] - Easy to use [NAS][info_nas] [OS][info_operating_system], the app store is taken from [CasaOS][os_casaos]
 - [zVault][os_zvault], fork of last public version of [TrueNAS Core][os_truenas_core], since 02/2025
 
 <sup>1)</sup> The [OS][info_operating_system] does not support [RAID][info_raid], more a [Docker OS][info_docker], the `Merge Storage` option (Beta) seems to bundle the disks like [JBOD][info_jbod].
