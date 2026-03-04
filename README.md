@@ -57,9 +57,11 @@ These are manufacturers of [NAS][info_nas] systems and they offer their devices 
 
 <sup>2)</sup>Found the announcement of shutdown only on GitHub, the website is no longer available.
 
-<sup>3)</sup>The company behind [CasaOS][os_casaos] and [ZimaOS][os_zimaos] is [IceWhale Technology Ltd.][company_icewhale], a Shanghai based chinese company.
+<sup>3)</sup>The company behind [CasaOS][os_casaos] and [ZimaOS][os_zimaos] is [IceWhale Technology Ltd.][company_icewhale], a Shanghai based chinese company. Interview with [Lauren Pan][interview_founder_icewhale], founder of [IceWhale Technology Ltd.][company_icewhale] at [NAS Compares][info_nascompares].
 
 [company_icewhale]: https://www.crowdsupply.com/icewhale-technology
+[interview_founder_icewhale]: https://nascompares.com/guide/zimaos-interview-with-lauren-pan-founder-of-icewhale/
+[info_nascompares]: https://nascompares.com/
 
 <!-- NAS Manufacturers -->
 
