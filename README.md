@@ -172,6 +172,7 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 - [ESOS][os_esos] - Enterprise Storage OS
 - [fnOS][os_fnos] - New [NAS][info_nas] OS from China, see test [here][os_fnos_test]
 - [iStoreOS][os_istoreos] - An operating system for [NAS][info_nas] based on [OptenWRT][os_openwrt]
+- [HexOS][os_hexos] - In cooperation with [TrueNAS][os_truenas], and it's commercial
 - [libreCMC][os_librecmc] - The _libre_ Embedded GNU/Linux Distro<sup>2)</sup>, used on [GnuBee][hw_gnubee]
 - [OpenDedup][os_opendedup] - Cloud Storage Gateway and Filesystem
 - [Openfiler][os_openfiler] - Unified Storage
@@ -207,6 +208,7 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 [os_fnos]: https://www.fnnas.com/
 [os_fnos_test]: https://nascompares.com/review/fnos-beta-review-i-tried-out-a-closed-source-chinese-nas-os-so-you-dont-have-to-feiniu-nas-os/
 [os_freebsd]: https://www.freebsd.org/
+[os_hexos]: https://hexos.com/
 [os_istoreos]: https://www.istoreos.com/
 [os_librecmc]: https://librecmc.org/
 [os_librecmc_repos]: https://gogs.librecmc.org/libreCMC
@@ -217,6 +219,7 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 [os_petasan]: https://www.petasan.org/
 [os_proxmox]: https://www.proxmox.com/
 [os_rockstor]: https://rockstor.com/
+[os_truenas]: https://www.truenas.com/
 [os_truenas_core]: https://www.truenas.com/truenas-core/
 [os_truenas_scale]: https://www.truenas.com/download-truenas-scale/
 [os_truenas_scale_setup]: https://www.youtube.com/watch?v=HV52Rs0lWsw
@@ -232,11 +235,14 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 
 Promising [NAS][info_nas] hardware will be listet here:
 
+- [ACEMAGIC N3A NAS AMD Ryzen™ Embedded R2544 Mini PC][hw_acemagic] - 2 slots for M2 SSDs, 4 Bay 3,5 HDD drives
 - [AOOSTAR WTR PRO 4 Bay 90T Storage INTEL N100 Nas Mini PC][hw_aoostar] - Base for a DIY [NAS][info_nas]
-- [Beelink ME mini][hw_beelink_me_mini] - Nice barebone for M2 based NAS, 6 slots, Intel N150 CPU
-- [Beelink ME Pro 2-Bay Hybrid NAS][hw_beelink_me_pro] - Interesting hardware base for own [NAS][info_nas], two SATA drives and three M2 SSDs
-- [Chenbro SR301 Plus][hw_chenbro_sr301plus] - Case for [mini ITX boards][info_miniitx] with 4 hot swap slots for 3,5" drives
-- [Chenbro Storage Expansion Kits][hw_chenbro_storage_expansion] - Five bay 3,5" HDD enclosure with backplane, 3 bay 3,5" drive enclosure, ...
+- Beelink
+  - [Beelink ME mini][hw_beelink_me_mini] - Nice barebone for M2 based NAS, 6 slots, Intel N150 CPU
+  - [Beelink ME Pro 2-Bay Hybrid NAS][hw_beelink_me_pro] - Interesting hardware base for own [NAS][info_nas], two SATA drives and three M2 SSDs
+- Chenbro
+  - [Chenbro SR301 Plus][hw_chenbro_sr301plus] - Case for [mini ITX boards][info_miniitx] with 4 hot swap slots for 3,5" drives
+  - [Chenbro Storage Expansion Kits][hw_chenbro_storage_expansion] - Five bay 3,5" HDD enclosure with backplane, 3 bay 3,5" drive enclosure, ...
 - [Fractal Node Series][hw_fractal_node] - PC cases for [NAS][info_nas]
 - [Geekworm Pi Cases/hats][hw_geekworm_rpi] - various solutions for [RPi][hw_raspberry_pi] based [NAS][info_nas]
 - [GnuBee][hw_gnubee] - GnuBee: [NAS][info_nas] for a personal cloud
@@ -252,14 +258,16 @@ Promising [NAS][info_nas] hardware will be listet here:
 - Pine64<sup>1)</sup>
   - [ROCKPro64][hw_pine64_rockpro], a [SBC][info_sbc] similar to a [RPi][hw_raspberry_pi] but with gigabit ethernet and PCIe 4x
   - [ROCKPro64 NAS Case][hw_pine64_rockpro_nas]
-- [Radxa Penta SATA HAT][hw_radxa sata hat] for [RPi][hw_raspberry_pi]
-- [Radxa Taco][hw_radxa_taco] - Board for [Radxa CM3][hw_radxa_cm3] or the [Raspberry Pi CM4][hw_raspberrypi_cm4], up to five 2,5" or 3,5" drives
+- Raxda
+  - [Radxa Penta SATA HAT][hw_radxa sata hat] for [RPi][hw_raspberry_pi]
+  - [Radxa Taco][hw_radxa_taco] - Board for [Radxa CM3][hw_radxa_cm3] or the [Raspberry Pi CM4][hw_raspberrypi_cm4], up to five 2,5" or 3,5" drives, now for [Raspberry Pi CM5][hw_raspberrypi_cm5]
 - [Silverstone][hw_silverstone] - PC cases for [NAS][info_nas] and more, e. g. [5 bay cage][hw_silverstone_cage_5] in size of three 5 1/4 default case slots or the [5 bay NAS case][hw_silverstone_nas_case]
 - [Supermicro][hw_supermicro_m28sacb] - Internal case for 8x 2,5" drives in two 5,25" slots
 - [The TerraPi][hw_terrapi] - Printable [NAS][info_nas] cases for [RPi][hw_raspberry_pi]
 - [Topton NAS boards][hw_topton] - For the brave: Topton mainboards on AliExpress, overview e. g. [here][hw_topton_overview]
-- [Waveshare "Flashtor"][hw_waveshare_flashtor] - Case with carrierboard for [Raspberry Pi CM4][hw_raspberrypi_cm4] and two M2 NVME slots, similar to [Asustor Flashtor][hw_asustor_flashtor]
-- [Waveshare "PiBox"][hw_waveshare_pibox] - Similar case to [PiBox][nas_pibox], for two 2 1/2" disk drives and a large display
+- Waveshare
+  - [Waveshare "Flashtor"][hw_waveshare_flashtor] - Case with carrierboard for [Raspberry Pi CM4][hw_raspberrypi_cm4] and two M2 NVME slots, similar to [Asustor Flashtor][hw_asustor_flashtor]
+  - [Waveshare "PiBox"][hw_waveshare_pibox] - Similar case to [PiBox][nas_pibox], for two 2 1/2" disk drives and a large display
 - ~~[Wiretrustee][hw_wiretrustee_ex]~~ - Project stopped, plans for hardware are public available
 - [Zima Cube][hw_zima_cube] - interesting base for own [NAS][info_nas], seems that at least [TrueNAS Scale][os_truenas_scale] was installed, for more details see [here][info_zima_cube_os].
 
@@ -267,6 +275,7 @@ Promising [NAS][info_nas] hardware will be listet here:
 
 <!-- DIY NAS hardware -->
 
+[hw_acemagic]: https://acemagic.eu/products/acemagic-n3a-nas-mini-pc
 [hw_aoostar]: https://aoostar.com/products/aoostar-n9e-intel-n100-mini-pc4c-4t-up-to-3-4ghz-with-w11-home-8-16gb-ddr4-3200mhz-ram-256-512gb-m-2-2280-nvme-ssd?variant=48813283574058
 [hw_asustor_flashtor]: https://www.asustor.com/de/product?p_id=79
 [hw_axzez_interceptor]: https://www.axzez.com/axzez-circuit-boards
@@ -300,6 +309,7 @@ Promising [NAS][info_nas] hardware will be listet here:
 [hw_radxa_taco]: https://radxa.com/products/io-board/taco/
 [hw_raspberry_pi]: https://www.raspberrypi.com/
 [hw_raspberrypi_cm4]: https://www.raspberrypi.com/products/compute-module-4/?variant=raspberry-pi-cm4001000
+[hw_raspberrypi_cm5]: https://www.raspberrypi.com/products/compute-module-5/?variant=cm5-104032
 [hw_silverstone]: https://www.silverstonetek.com/
 [hw_silverstone_cage_5]: https://www.silverstonetek.com/en/product/info/storage/FS305-12G/
 [hw_silverstone_nas_case]: https://www.silverstonetek.com/en/product/info/computer-chassis/CS351/
