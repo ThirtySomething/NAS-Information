@@ -26,6 +26,16 @@ A curated list about [NAS][info_nas] hardware and software, tips and tricks. Thi
 [info_zima_cube_os]: https://community.zimaspace.com/t/installing-new-os-on-zimacube/3441
 [license_mit]: ./LICENSE
 
+## Websites regarding [NAS][info_nas]
+
+These are websites with focus on [NAS][info_nas] technology.
+
+- [Brian Moses][url_brianmoses]
+- [NAS Compares][url_nascompares]
+
+[url_brianmoses]: https://blog.briancmoses.com/
+[url_nascompares]: https://nascompares.com/
+
 ## [NAS][info_nas] manufacturer
 
 These are manufacturers of [NAS][info_nas] systems and they offer their devices with their own [OS][info_operating_system] installed.
