@@ -338,6 +338,7 @@ Promising [NAS][info_nas] hardware will be listet here:
 The basic job of a [NAS][info_nas] is to provide storage over the network. But nowadays a [NAS][info_nas] is more like a home server and offers countless opportunities for
 
 - Developer server options
+  - [Document search system][app_fess] to search content of your digital data
   - [MQTT Broker][info_mqtt], e. g. [Eclipse Mosquitto][app_mosquitto]
   - [NoSQL][info_nosql], e. g. [Apache Cassandra][app_cassandra] or [Apache CouchDB][app_couchdb]
   - [RDBMS][info_rdbms], e. g. [MySQL][app_mysql] or [MariaDB][app_mariadb]
@@ -359,6 +360,7 @@ But there are also [OS][info_operating_system] which forces the usage of [Docker
 [app_cassandra]: https://cassandra.apache.org/_/index.html
 [app_couchdb]: https://couchdb.apache.org/
 [app_emby]: https://emby.media/
+[app_fess]: https://fess.codelibs.org/
 [app_git]: https://git-scm.com/
 [app_gitea]: https://about.gitea.com/
 [app_homeassistant]: https://www.home-assistant.io/
