@@ -338,7 +338,7 @@ Promising [NAS][info_nas] hardware will be listet here:
 The basic job of a [NAS][info_nas] is to provide storage over the network. But nowadays a [NAS][info_nas] is more like a home server and offers countless opportunities for
 
 - Developer server options
-  - [Document search system][app_fess] to search content of your digital data
+  - [FESS][app_fess], an open source enterprise search system - you will find the document you searching for
   - [MQTT Broker][info_mqtt], e. g. [Eclipse Mosquitto][app_mosquitto]
   - [NoSQL][info_nosql], e. g. [Apache Cassandra][app_cassandra] or [Apache CouchDB][app_couchdb]
   - [RDBMS][info_rdbms], e. g. [MySQL][app_mysql] or [MariaDB][app_mariadb]
