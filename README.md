@@ -338,19 +338,19 @@ Promising [NAS][info_nas] hardware will be listet here:
 The basic job of a [NAS][info_nas] is to provide storage over the network. But nowadays a [NAS][info_nas] is more like a home server and offers countless opportunities for
 
 - Developer server options
-  - [FESS][app_fess], an open source enterprise search system - you will find the document you searching for
   - [MQTT Broker][info_mqtt], e. g. [Eclipse Mosquitto][app_mosquitto]
   - [NoSQL][info_nosql], e. g. [Apache Cassandra][app_cassandra] or [Apache CouchDB][app_couchdb]
   - [RDBMS][info_rdbms], e. g. [MySQL][app_mysql] or [MariaDB][app_mariadb]
   - [Version control system][info_vcs], e. g. [Apache Subversion][app_svn], [git][app_git], [Gitea][app_gitea] or [SCM-Manager][app_scmmanager]
   - [Webserver][info_webserver] like [Apache Webserver][app_apache2], [Caddy][app_caddy] or [lighttp][app_lighttp]
+- File indexing by [FESS][app_fess], an open source enterprise search system - you will find the document you searching for
 - File synchronization by [Syncthing][app_syncthing]
 - Network wide ad filtering by [AdGuard][app_adguard] or [Pi-hole][app_pihole]
 - Organizing images by [Photoprism][app_photoprism] or [immich][app_immich]
 - Smart home control by [Home Assistant][app_homeassistant]
 - Streaming movies and/or music by [Emby][app_emby], [Jellyfin][app_jellyfin] or [Plex][app_plex]
 
-So most of this software is avaliable for [Docker][info_docker]. There is native support for [Docker][info_docker] available at least in [OMV][os_omv], [TrueNAS Core][os_truenas_core] and [TrueNAS Scale][os_truenas_scale].
+So most of this software is avaliable for [Docker][info_docker]. There is native support for [Docker][info_docker] available at least in [OMV][os_omv] and [TrueNAS Scale][os_truenas_scale].
 
 But there are also [OS][info_operating_system] which forces the usage of [Docker][info_docker] with less the focus on classical [NAS][info_nas] features like [CasaOS][os_casaos], [cosmos-cloud][os_cosmos] or [umbrelOS][os_umbrelos].
 
