@@ -48,7 +48,7 @@ These are manufacturers of [NAS][info_nas] systems and they offer their devices 
 - [ioSafe][nas_iosafe]
 - [iXsystems, Inc.][nas_ixsystems], founded in 1991, offers both, hardware for [NAS][info_nas] and public available [OS][info_operating_system] ([TrueNAS][nas_ixsystems_truenas]) in variants
 - ~~[kobol][nas_kobol]~~ [Does not exist anymore][nas_kobol_ex], 2017-2021
-- [LincPlus][nas_lincplus] - offers tablets and [NAS][info_nas] systems
+- [LincPlus][nas_lincplus] - offers tablets and [NAS][info_nas] systems, some of the [NAS][info_nas] systems come with [Unraid][os_unraid] license
 - [ORICO][nas_orico] - founded 2009, offers meanwhile also [NAS][info_nas] cases
 - [OWC Network Attached Storage][nas_owc], founded in 1988, they use [TrueNAS Scale][os_truenas_scale] on some [devices][nas_owc_jupiter_mini]
 - ~~[PiBox][nas_pibox]~~, [Does not exist anymore][nas_kubesail], 2019-2024<sup>2)</sup>
@@ -179,11 +179,13 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 - [AMAHI][os_amahi] - Powerful, Simple Homer Server
 - ~~[CasaOS: Your Personal Cloud OS][os_casaos]<sup>1)</sup> - Runs on top of Debian/Ubuntu/Rasperry Pi OS and others~~ Development in favor of [ZimaOS][os_zimaos] stopped.
 - [Cosmos - Escape the cloud][os_cosmos]: A [Docker][info_docker] based [OS][info_operating_system]
+- [EasyNAS][os_easynas] - A spare machine in, a managed NAS out.
 - [ESOS][os_esos] - Enterprise Storage OS
 - [fnOS][os_fnos] - New [NAS][info_nas] OS from China, see test [here][os_fnos_test]
 - [iStoreOS][os_istoreos] - An operating system for [NAS][info_nas] based on [OptenWRT][os_openwrt]
 - [HexOS][os_hexos] - In cooperation with [TrueNAS][os_truenas], and it's commercial
 - [libreCMC][os_librecmc] - The _libre_ Embedded GNU/Linux Distro<sup>2)</sup>, used on [GnuBee][hw_gnubee]
+- [LincOS][os_lincos] - Operation system from [LincPlus][nas_lincplus]
 - [OpenDedup][os_opendedup] - Cloud Storage Gateway and Filesystem
 - [Openfiler][os_openfiler] - Unified Storage
 - [Openmediavault][os_omv] - The open network attached storage solution, since 2009
@@ -214,6 +216,7 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 [os_casaos]: https://casaos.io/
 [os_cosmos]: https://cosmos-cloud.io/
 [os_debian]: https://www.debian.org/
+[os_easynas]: https://www.easynas.org/
 [os_esos]: https://www.esos-project.com/
 [os_fnos]: https://www.fnnas.com/
 [os_fnos_test]: https://nascompares.com/review/fnos-beta-review-i-tried-out-a-closed-source-chinese-nas-os-so-you-dont-have-to-feiniu-nas-os/
@@ -222,6 +225,7 @@ For a DIY [NAS][info_nas] you need an [OS][info_operating_system]. Here are some
 [os_istoreos]: https://www.istoreos.com/
 [os_librecmc]: https://librecmc.org/
 [os_librecmc_repos]: https://gogs.librecmc.org/libreCMC
+[os_lincos]: https://www.lincplustech.com/LincOS.html
 [os_omv]: https://www.openmediavault.org/
 [os_opendedup]: https://opendedup.org/odd/
 [os_openfiler]: https://www.openfiler.com/
